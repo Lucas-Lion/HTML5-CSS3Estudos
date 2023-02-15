@@ -19,7 +19,7 @@ body {
 
 header {
     background-color: var(--HEADER);
-    height: 130px;
+    height: 135px;
 }
 
 .logo {
@@ -36,7 +36,7 @@ header {
 h1 {
     font-weight: bold;
     text-align: center;
-    margin: 15px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
 
 p {
@@ -176,6 +176,22 @@ a:hover {
 .legenda {
     margin: 0px 0px 5px 0px;
 }
+
+/* RETORNO */
+
+#return {
+    width: 10px;
+    display: flex;
+}
+
+div > a > img:hover {
+    transition: transform 0.5s;
+    transform: translate(-2px, -2px);
+    border-radius: 10px;
+    width: 500%;
+}
+
+/* RETORNO */
 
 ::-webkit-scrollbar {
     width: 0px;

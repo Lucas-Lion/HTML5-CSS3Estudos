@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/estilo_principal.css">
     <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/popup.css">
     <link rel="shortcut icon" href="img/brasao-da-bahia-5.ico" type="image/x-icon">
-    <title>Ramais SUDESB</title>
+    <title>Ramais SUDESBa</title>
 </head>
 <body>
     <header>
@@ -16,7 +17,13 @@
                 <div id="logo-sudesb"><img src="img/SUDESB-BRANCO.png" width="120%" alt="logo da sudesb"></div>
             </a>
         </div>
+        <button id="dicas">Dicas telefônicas</button >
+            <dialog>
+                <p class="popup">FLASH + RAMAL = transferir a ligação para o ramal desejado. <br> <br> ***** + RAMAL = puxar ligação. <br> <br> ***** + RAMAL = ligação externa.</p>
+                <div class="popup"><button id="saida">OK</button></div>
+            </dialog>
     </header>
+    <div id="return"><a href="../index.html"><img src="img/back.png" width="500%" alt="icone de retorno"></a></div>
     <h1>Listagem de Ramais da SUDESB</h1>
     <p>Seja bem vindo(a) a lista de ramais da sudesb!</p>
 
@@ -213,7 +220,7 @@
                     <tr class="dados" scope="row">
                         <td>Recepção</td>
                         <td>0500</td>
-                        <td>Marlene | Gladys</td>
+                        <td>Marlene</td>
                         <td><a class="telefones" href="tel:3198-0500">3198-0500</a></td>
                     </tr>
                     <tr class="dados" scope="row">
@@ -329,5 +336,6 @@
         </div>
         <footer><p class="texto-footer">Desenvolvido por Lucas Lion da T.I da <a target="_blank" href="http://www.sudesb.ba.gov.br">SUDESB</a></p></footer>
     <script src="js/search.js"></script>
+    <script src="js/popup.js"></script>
 </body>
 </html>

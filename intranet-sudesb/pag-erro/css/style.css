@@ -29,6 +29,21 @@ h1 {
     text-align: center;
 }
 
+/* RETORNO */
+
+#return {
+    width: 10px;
+}
+
+div > a > img:hover {
+    transition: transform 0.5s;
+    transform: translate(-2px, -2px);
+    border-radius: 10px;
+    width: 500%;
+}
+
+/* RETORNO */
+
 ::-webkit-scrollbar {
     width: 0px;
     height: 0px;
