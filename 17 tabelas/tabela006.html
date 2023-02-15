@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+             font-family: Arial, Helvetica, sans-serif;
+         }
+ 
+         table {
+            border-collapse: collapse;
+             width: 600px;
+         }
+ 
+         td, th {
+             border: 1px solid black;
+             padding: 10px;
+             text-align: center;
+         }
+
+         thead {
+            background-color: gray;
+            color: white;
+         }
+
+         .media {
+            background-color: gray;
+            color: white;
+         }
+     </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th scope="rowgroup" rowspan="2">ÁREA</th>
+                <th scope="rowgroup" rowspan="2">DISCIPLINAS</th>
+                <th scope="colgroup" colspan="2">NOTAS</th>
+                <th scope="rowgroup" rowspan="2">MÉDIA</th>
+            </tr>
+            <tr>
+                <th>NOTA 1</th>
+                <th>NOTA 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="rowgroup" rowspan="4">EXATAS</th>
+                <td>Matemática</td>
+                <td>8.0</td>
+                <td>8.9</td>
+                <td>8.45</td>
+            </tr>
+
+            <tr>
+                <td>Física</td>
+                <td>9.0</td>
+                <td>7.0</td>
+                <td>8.0</td>
+            </tr>
+
+            <tr>
+                <td>Química</td>
+                <td>8.0</td>
+                <td>7.0</td>
+                <td>7.5</td>
+            </tr>
+
+            <tr>
+                <td>Biologia</td>
+                <td>10.0</td>
+                <td>9.8</td>
+                <td>9.9</td>
+            </tr>
+
+            <tr>
+                <th scope="col" class="media" colspan="4">MÉDIA DE EXATAS</th>
+                <td class="media">8.5</td>
+            </tr>
+
+            <tr>
+                <th scope="rowgroup" rowspan="2">HUMANAS</th>
+                <td>História</td>
+                <td>9.6</td>
+                <td>8.0</td>
+                <td>8.8</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>8.6</td>
+                <td>7.8</td>
+                <td>8.2</td>
+            </tr>
+            <th scope="col" class="media" colspan="4">MÉDIA DE HUMANAS</th>
+            <td class="media">8.5</td>
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,122 @@
+@charset "UTF-8"; 
+
+body {
+    width: 100%; 
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/beige-paintbrush-stroke-textured-background.jpg)
+}
+
+:root {
+    --BODY-COLOR: #7a7979;
+    --FONT-COLOR: #e7e5e5;
+    --BUTTON-COLOR: #004F4D;
+    --DIV-COLOR: #9b9a9a95;
+    --DIV-COLOR-2: #d9d9d973;
+    --FOOTER-COLOR: #027368;
+    --FONT-BASE: Arial, Helvetica, sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    background-image: linear-gradient(var(--DIV-COLOR), var(--DIV-COLOR-2));
+    width: 30%;
+    padding-bottom: 5%;
+    border-radius: 15px;
+    box-shadow: 10px 4px 6px 3px rgba(0, 0, 0, 0.205);
+    margin: auto;
+}
+
+form {
+    width: 100%;
+    max-width: 350px;
+}
+
+div.single{
+    width: 100%;
+    margin: 30px 0;
+}
+
+div.single label{
+    font-size: 16px;
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    color: rgb(150, 150, 150);
+    cursor: text;
+    transition: 0.5s ease-in-out;
+}
+
+div.single .input {
+    background-image: linear-gradient(var(--DIV-COLOR-2));
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 20px;
+    padding: 10px;
+    color: rgb(150, 150, 150);
+    border: 0;
+    border-bottom: 2px solid #8C8B88;
+    outline: 0;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+div.single .input:focus,
+div.single .input:valid {
+    border-bottom: 2px solid #8C8B88;
+}
+
+div.single .input:focus ~ label
+div.single .input:valid ~ label {
+    transform: translateY(-24px);
+    font-size: 12px;
+    color: var(--FOOTER-COLOR);
+}
+
+h1 {
+    font-family: var(--FONT-BASE);
+    color: #4d4c4c;
+    padding-top: 50px;
+    margin-left: 20px;
+}
+
+a {
+    margin-left: 44%;
+    text-decoration: none;
+    color: #40403F;
+}
+
+a:hover {
+    background-color: #afafab58;
+}
+
+/* 
+    CRTL . ,
+#40403F
+    --ANATOMIA DAS CAIXAS--
+
+    1- HEIGHT  = ALTURA
+    2- WIDTH   = LARGURA
+    3- BORDER  = BORDA
+    4- PADDING = PREENCHIMENTO DA BORDA
+    5- MARGIN  = ESPAÇO EXTERNO
+    6- OUTLINE = TRAÇADO
+
+    --TIPOS DE CAIXA--
+
+    1- BOX-LEVEL    = SEMPRE INICIA EM UMA NOVA LINHA | OCUPA TODA A LARGURA | PULA PARA PROXIMA LINHA ANTES DE CONTINUAR O CONTEUDO
+    2- INLINE-LEVEL = NÃO QUEBRA LINHA | NÃ?O OCUPA TODA A LARGURA 
+
+    --TAGS--
+
+    1- BOX-LEVEL    = <div>  ; <h1>-<h6> ; <p>   ; <main>  ; <header> ; <nav> ; <article>   ; <aside> ; <footer> ; <form>  ; <video>
+    2- INLINE-LEVEL = <span> ;    <a>    ; <code ; <small> ; <strong> ; <em>  ; <sup>-<sub> ; <label> ; <button> ; <input> ; <select>
+
+    PADDING = TOP, RIGHT, BOTTOM, LEFT
+*/

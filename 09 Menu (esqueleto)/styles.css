@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+body {
+    text-align: center;
+    background-color: rgb(72, 56, 56);
+}
+
+div {
+    font-size: 30px; 
+    text-align: center;
+    display: inline-block;
+    border: 1px solid black;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(210, 215, 159) ;
+    color: rgb(66, 133, 91);
+    border-radius: 10px;
+}
+
+div:hover {
+    background-color: rgb(144, 183, 125);  
+}
+
+.botao:hover {
+    color: white;
+}
+
+div > p {
+    display: none;
+}
+
+div:hover > p {
+    font-size: 20px;
+    display: block;
+    border: 1px solid black;
+    background-color: rgb(210, 215, 159) ;
+    color: rgb(66, 133, 91);
+}
+
+/* 
+    --ANATOMIA DAS CAIXAS--
+
+    1- HEIGHT  = ALTURA
+    2- WIDTH   = LARGURA
+    3- BORDER  = BORDA
+    4- PADDING = PREENCHIMENTO DA BORDA
+    5- MARGIN  = ESPAÇO EXTERNO
+    6- OUTLINE = TRAÇADO
+
+    --TIPOS DE CAIXA--
+
+    1- BOX-LEVEL    = SEMPRE INICIA EM UMA NOVA LINHA | OCUPA TODA A LARGURA | PULA PARA PROXIMA LINHA ANTES DE CONTINUAR O CONTEUDO
+    2- INLINE-LEVEL = NÃO QUEBRA LINHA | NÃ?O OCUPA TODA A LARGURA 
+
+    --TAGS--
+
+    1- BOX-LEVEL    = <div>  ; <h1>-<h6> ; <p>   ; <main>  ; <header> ; <nav> ; <article>   ; <aside> ; <footer> ; <form>  ; <video>
+    2- INLINE-LEVEL = <span> ;    <a>    ; <code ; <small> ; <strong> ; <em>  ; <sup>-<sub> ; <label> ; <button> ; <input> ; <select>
+
+    PADDING = TOP, RIGHT, BOTTOM, LEFT
+*/

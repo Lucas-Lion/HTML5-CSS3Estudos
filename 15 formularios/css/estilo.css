@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+:root { 
+    --BODY-COLOR: #7a7979;
+    --FONT-COLOR: #e7e5e5;
+    --BUTTON-COLOR: #004F4D;
+    --DIV-COLOR: #d7cbbfa9;
+    --DIV-COLOR-2: #859da7b0;
+    --FOOTER-COLOR: #027368;
+    --FONT-BASE: Arial, Helvetica, sans-serif;
+}
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--FONT-BASE);
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../icon/beige-paintbrush-stroke-textured-background.jpg)
+}
+
+main {
+    background-image: linear-gradient(var(--DIV-COLOR), var(--DIV-COLOR-2));
+    min-width: 20%;
+    padding: 5% 5% 5% 5% ;
+    border-radius: 15px;
+    box-shadow: 10px 4px 6px 3px rgba(0, 0, 0, 0.205);
+    margin: auto;
+}
+
+form {
+    width: 100%;
+    max-width: 350px;
+} 
+
+div.single{
+    width: 100%;
+    margin: 30px 0;
+}
+
+div.single .input {
+    background-image: linear-gradient(#9b9a9a56, #d9d9d949);
+    width: 100%;
+    padding: 5px;
+    color: rgb(90, 90, 90);
+    border: 0;
+    border-bottom: 2px solid #8C8B88;
+    outline: 0;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+div.single .input:focus,
+div.single .input:valid {
+    border-bottom: 2px solid #8C8B88;
+}
+
+div.single .input:focus ~ label
+div.single .input:valid ~ label {
+    transform: translateY(-24px);
+    font-size: 12px;
+    color: #696969;
+}
+
+h1 {
+    font-family: var(--FONT-BASE);
+    color: #4c6e7cb0;
+    font-weight: bold;
+}
+
+button {
+    width: 55%;
+    padding: 3px;
+    margin-left: 45px;
+    margin-bottom: 20px;
+}
+
+a {
+    margin-left: 15%;
+    text-decoration: none;
+    color: #4c6e7cb0;
+    font-weight: bold;
+}
+
+a:hover {
+   color: #49718280;
+}

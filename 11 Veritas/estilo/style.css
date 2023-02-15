@@ -1,0 +1,210 @@
+@charset "UTF-8"; 
+
+@font-face {
+    font-family: 'Sacred Valley';
+    src: url('fontes/Sacred Valley.ttf') format(truetype);
+    font-weight: normal;
+}
+
+:root {
+    --MENU: #031d3467;
+    --NAV: #141c2e81;
+    --BACKGROUND: #161619;
+    --BOX-CONTEUDO: #0c121c; 
+    --BOX-VÍDEO: #141e2e;
+    --FONT-COLOR: #ffffff;
+    --FOOTER-COLOR: #08122698;
+    --FONT-BASE: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#logo {
+    max-width: 5%;
+    display: block;
+    margin: auto;
+}
+
+header {
+    background-color: var(--MENU);
+    background-image: linear-gradient(to bottom, var(--NAV), var(--BOX-CONTEUDO));
+    min-height: 160px;
+}
+
+header > h1 {
+    text-align: center;
+    font-size: 3em;
+    color: var(--FONT-COLOR);
+    font-family: 'Sacred Valley';
+    margin: 10px 0px 10px 0px;
+}
+
+header > p {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.1em;
+}
+
+nav {
+    background-color: var(--NAV);
+    padding: 10px 0px 10px 0px;
+}
+    
+nav > a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover {
+    background-color: #212e41;
+}
+
+body {
+    background-color: var(--BACKGROUND);
+}
+
+main {
+    background-color: var(--BOX-CONTEUDO);
+    min-width: 300px;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.425);
+    border-radius: 0px 0px 10px 10px;
+}
+
+main img {
+    max-width: 100%;
+}
+
+.cosmos {
+    width: 70%;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #ffffff21;
+}
+
+main h1 {
+    padding: 10px 0px 5px 0px;
+    margin: 10px;
+    text-align: center;
+    font-size: 2em;
+    color: var(--FONT-COLOR);
+    font-family: 'Sacred Valley';
+}
+
+main p {
+    margin: 10px 5px 15px 5px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2.4em;
+    color: white;
+}
+
+main h2 {
+    text-align: center;
+    font-size: 2em;
+    color: var(--FONT-COLOR);
+    font-family: 'Sacred Valley';
+    margin: 0px -20px;
+    padding-bottom: 10px;
+}
+
+main h3 {
+    text-align: center;
+    font-size: 2em;
+    color: var(--FONT-COLOR);
+    font-family: 'Sacred Valley';
+}
+
+aside {
+    background-color: #222d47;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+aside > h5 {
+    background-color: var(--BOX-VÍDEO);
+    border-radius: 10px 10px 0px 0px;
+    height: 30px;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 5px;
+    margin: -10px -10px 0 -10px;
+    color: var(--FONT-COLOR);
+    font-family: 'Sacred Valley';
+}
+
+h4 {
+    height: 30px;
+    text-align: justify;
+    font-size: 1.5em;
+    padding: 5px;
+    margin: -10px -10px 10px -10px;
+    color: var(--FONT-COLOR);
+    font-family: 'Sacred Valley';
+}
+
+.referencia {
+    text-decoration: none;
+    color: var(--FONT-COLOR);
+    font-family: var(--FONT-BASE);
+    margin: 10px 10px 10px 10px;
+    line-height: 1.5em;
+}
+
+a:hover {
+    border-radius: 20px;
+    background-color: #354358;
+}
+
+ul > li {
+    text-decoration: none;
+    color: var(--FONT-COLOR);
+    font-family: var(--FONT-BASE)
+}
+
+p {
+    margin-bottom: 30px;
+    font-size: 1.1em;
+    color: var(--FONT-COLOR);
+    font-family: var(--FONT-BASE)
+}
+
+footer {
+    background-color: var(--FOOTER-COLOR);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+    height: 15px;
+}
+
+aside > ul {
+    list-style-position: inside;
+}
+
+.video {
+    background-color: var(--BOX-VÍDEO);
+    padding: 20px;
+    margin: 0px -20px 30px -20px;
+    padding-bottom: 60%;
+    position: relative;
+}
+
+.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}

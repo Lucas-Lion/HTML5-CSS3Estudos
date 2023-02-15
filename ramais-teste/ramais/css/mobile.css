@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 100px) and (max-width:768px) { 
+
+    #logo {
+        width: 300%;
+        position: relative;
+        right: 80%;
+
+    }
+
+    .pesquisa {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0px 20px 0px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    input#ipesquisa {
+        width: 90%;
+        height: 40px;
+        border-radius: 5px;
+    }
+
+    table {
+        width: 40%;
+        margin: auto;
+    }
+
+    td, th {
+        text-align: center;
+    }
+
+    .container {
+        overflow-x: auto;
+    }
+
+    .logo-code {
+        display: none;
+    }
+
+    footer > p {
+        font-size: 1em;
+    }
+
+    ::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+}

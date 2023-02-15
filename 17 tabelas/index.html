@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        /* 
+       --Hierarquia de Tabela--
+
+        Table = tabela
+            Table row = linha de tabela
+                Table header = cabeçalho da tabela
+                    table data = dado da tabela
+        */
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            text-align: justify;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+        .normal {
+            background-color: darkgray;
+        }
+
+        .condition {
+            font-weight: bolder;
+            background-color: rgb(121, 121, 121);
+            color: white;
+        }
+
+        .situation-1 {
+            background-color: green;
+            color: white;
+            font-weight: bolder;
+        }
+
+        .situation-2 {
+            background-color: red;
+            color: white;
+            font-weight: bolder;
+        }
+
+        .situation-3 {
+            background-color: blue;
+            color: white;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela de Preços</h1>
+    <table>
+        <tr class="condition"> <!--Primeira Linha-->
+            <td>ITENS</td>
+            <td>QUANTIDADE</td>
+            <td>VALOR</td>
+            <td>SITUAÇÃO</td>
+        </tr>
+        <tr class="linha"> <!--Segunda Linha-->
+            <td class="normal">Açaí</td>
+            <td class="normal">2</td>
+            <td class="normal">R$10,99</td>
+            <td class="situation-1">Pago</td>
+        </tr>
+        <tr> <!--Terceira Linha-->
+            <td class="normal">Sorvete</td>
+            <td class="normal">3</td>
+            <td class="normal">R$15,99</td>
+            <td class="situation-2">Falta</td>
+        </tr>
+        <tr> <!--Quarta Linha-->
+            <td class="normal">Gelato</td>
+            <td class="normal">1</td>
+            <td class="normal">R$19,99</td>
+            <td class="situation-3">Parcelando</td>
+        </tr>
+    </table>
+</body>
+</html>

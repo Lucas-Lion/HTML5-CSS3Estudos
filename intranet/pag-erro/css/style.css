@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+:root {
+    --nav:        #958a6b;
+    --body:       #8f8465;
+    --caixas:     #b5a67c;
+    --footer:     #958a6b;
+    --menu:       #786e53;
+    --sub-menu:   #8f8465;
+    --menu-hover: #786e5391;
+    --font-white: #f2f2f2;
+    --font-black: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--body);
+}
+
+main {
+    margin: auto;
+}
+
+.icone-erro {
+    display: flex;
+    justify-content: center;
+    margin: 16% 0px 40px 0px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}

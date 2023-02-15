@@ -1,0 +1,218 @@
+@charset "UTF-8";
+
+:root {
+    --BLOCOS: #0c5b91;
+    --BLOCO-HOVER: rgba(0,0,0,.7);
+    --BOX-SHADOW: rgba(0, 0, 0, 0.756);
+    --FONT-COLOR-BLOCO: white;
+}
+
+a {
+    text-decoration: none
+  }
+
+
+div > p {
+    color: var(--FONT-COLOR-BLOCO);
+    font-size: 1.6em;
+    font-weight: bolder;
+    text-align: center;
+    
+    position: relative;
+    bottom: -35%;
+    }
+
+.texto {
+    background-color: var(--BLOCO-HOVER);
+    
+    height:180px;
+    width:180px;
+    
+    padding:10px;
+    border-radius: 20px;
+    
+    opacity:0;
+    transition: opacity .2s linear;
+    }
+
+#opacidade:hover .texto { 
+    opacity: 1; 
+}
+
+.imagem-1 {
+    background-color: var(--BLOCOS);
+    background-image: url(../teste/computador.png);  
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    height:200px;
+    width:200px; 
+
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px var(--BOX-SHADOW);
+    }
+
+.imagem-2 {
+    background-color: var(--BLOCOS);
+    background-image: url(../teste/placa-grafica.png);  
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    height:200px;
+    width:200px; 
+
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px var(--BOX-SHADOW);
+    }
+
+.imagem-3 {
+    background-color: var(--BLOCOS);
+    background-image: url(../teste/cabo-usb.png);  
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    height:200px;
+    width:200px;  
+
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px var(--BOX-SHADOW);
+    }
+
+.imagem-4 {
+    background-color: var(--BLOCOS);
+    background-image: url(../teste/roteador-wi-fi.png);  
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    height:200px;
+    width:200px;  
+
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px var(--BOX-SHADOW);
+    }
+    
+.imagem-5 {
+    background-color: var(--BLOCOS);
+    background-image: url(../teste/teclado-e-mouse.png);  
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+    height:200px;
+    width:200px;  
+
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px var(--BOX-SHADOW); 
+    }
+
+.imagem-6 {
+    background-color: var(--BLOCOS);
+    background-image: url(../teste/ferramentas-de-reparacao.png);  
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    height:200px;
+    width:200px; 
+
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px var(--BOX-SHADOW);
+    }
+
+.imagem-7 {
+    background-color: var(--BLOCOS);
+    background-image: url(../teste/dvd.png);  
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    height:200px;
+    width:200px; 
+
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px var(--BOX-SHADOW);
+    }
+    
+.imagem-8 {
+    background-color: var(--BLOCOS);
+    background-image: url(../teste/toner.png);  
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    height:200px;
+    width:200px;  
+
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px var(--BOX-SHADOW);
+    }
+
+.imagem-9 {
+    background-color: var(--BLOCOS);
+    background-image: url(../teste/application.png);  
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    height:200px;
+    width:200px;  
+
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px var(--BOX-SHADOW);
+    }
+
+.imagem-memory {
+    background-color: var(--BLOCOS);
+    background-image: url(../imagens/memoria.png);  
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+    height:200px;
+    width:200px; 
+    
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px var(--BOX-SHADOW);
+    }
+
+.box {
+    background-color: #f0f6f6; 
+    background-size: 170px;
+
+    height:250px;
+    width:200px;  
+
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px var(--BOX-SHADOW);
+}
+
+.box-1 {
+    background-color: var(--BLOCOS); 
+    background-size: 170px;
+
+    height:80px;
+    width:200px;  
+
+    border-radius: 20px 20px 0px 0px;
+}
+
+.container {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-1 {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+

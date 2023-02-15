@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+ 
+:root {
+    --HEADER-COLOR: #00010D;
+    --HEADER-FONT-COLOR: #D9D2D0;
+    --FONT-COLOR: black;
+    --FOOTER-COLOR: #3B403F;
+    --SECTION-NORMAL: #BFB7A8;
+    --SECTION-IMAGEM: #3B403F;
+    --FONT-TITULO: 'Metal Mania', cursive;
+    --FONT-CONTEUDO: 'Sriracha', cursive;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: #BFB8B4;
+}
+
+header {
+    background-image: linear-gradient(var(--HEADER-COLOR), var(--FOOTER-COLOR));
+    background-attachment: fixed;
+    color: var(--HEADER-FONT-COLOR);
+    text-align: center;
+}
+
+header > picture {
+    display: block;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 2%;
+}
+
+.logo {
+    width: 9vh;
+}
+
+header > h1 {
+    padding-top: 16px;
+    font-variant: small-caps;
+    font-family: var(--FONT-TITULO);
+    font-size: 5vh;
+}
+
+header > p {
+    padding-bottom: 20px;
+}
+
+header a, footer a {
+    color: var(--HEADER-FONT-COLOR);
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section > p {
+    font-family: var(--FONT-CONTEUDO);
+    font-size: 3vh;
+    text-align: center;
+}
+
+section.normal {
+    background-color: var(--SECTION-NORMAL);
+    color: black;
+}
+
+section.imagem {
+    text-align: center;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.404);
+    background-attachment: fixed;
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: #00010d46;
+    border-radius: 8px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.247);
+    text-shadow: 1px 1px 0px black;
+    color: white;
+}
+
+section#img01 {
+    background-image: url(../imagens/background001.jpg);
+    background-size: cover;
+}
+
+section#img02 {
+    background-image: url(../imagens/background002.jpg);
+    background-position: center bottom;
+    background-size: cover;
+}
+
+.link-titulo-1 {
+    text-decoration: none;
+    color: black;
+    font-size: 2.4vh;
+}
+
+.link-titulo-2 {
+    text-decoration: none;
+    color: white;
+    font-size: 2.4vh;
+}
+
+section a:hover{
+    text-decoration: none;
+    color: rgb(163, 156, 156);
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 3%;
+    font-variant: small-caps;
+    font-size: 5vh;
+    font-family: var(--FONT-CONTEUDO);
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: 3%;
+    font-variant: small-caps;
+    font-size: 5vh;
+    font-family: var(--FONT-CONTEUDO);
+}
+
+footer {
+    background-color: var(--FOOTER-COLOR);
+    color: var(--HEADER-FONT-COLOR);
+    text-align: center;
+    padding: 5px;
+}

@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+.box-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0px 0px 60px 0px;
+}
+
+.caixas {
+    width: 280px;
+    height: 170px;
+    margin: 10px 15px 15px 0px;
+  
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.438);
+  
+    background-color: var(--BLOCOS);
+    background-repeat: no-repeat;
+    background-position: 50% 70%;
+    background-size: 100px;
+    }
+
+#caixa-1 {
+    background-image: url(../img/sei-bahia.png);
+    }
+
+#caixa-2 {
+    background-image: url(../img/RH.png);
+    }
+
+#caixa-3 {
+    background-image: url(../img/email.png);
+    }
+
+#caixa-4 {
+    background-image: url(../img/telefone-fixo.png);
+    }
+
+#caixa-5 {
+    background-image: url(../img/diaria.png);
+    }
+
+#caixa-8{
+    background-image: url(../img/alteracao.png);
+}
+
+#caixa-10{
+    background-image: url(../img/suporte-online.png);
+}
+
+#caixa-11{
+    background-image: url(../img/material.png);
+}
+
+#caixa-12{
+    background-image: url(../img/veículo.png);
+}
+
+
+.shadow:hover {
+    transition: transform 0.5s;
+    transform: translate(-4px, -4px);
+    }
+  
+.legenda {
+    color: var(--font-black);
+    
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.4em;
+  
+    padding: 10px 0px 0px 0px;
+    }
+
+.legenda-2 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+  
+    padding: 10px 0px 0px 0px;
+    } 
+  

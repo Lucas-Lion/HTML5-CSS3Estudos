@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+:root {
+    --nav:        #958a6b;
+    --body:       #e5e8e0;
+    --caixas:     #b5a67c;
+    --footer:     #958a6b;
+    --menu:       #786e53;
+    --sub-menu:   #8f8465;
+    --menu-hover: #786e5391;
+    --font-white: #f2f2f2;
+    --font-black: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--body);
+}
+
+/* HEADER */
+
+div#img-estado {
+    display: flex;
+    justify-content: center;
+
+    padding: 5px 0px 0px 0px;
+
+    position: relative;
+    top: 10%;
+}
+
+nav {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.608);
+    background-color: var(--nav);
+    height: 101px;
+    width: 100vw;
+}
+
+ul {
+    list-style: none;
+}
+
+#ul-principal {
+    width: 90%;
+    margin: auto;
+}
+
+img#menu-img {
+    margin: 10px 0px 0px 0px;
+    padding: 0px 40px;
+}
+
+.botao {
+    text-align: center;
+    text-decoration: none;
+
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.402);
+
+    background-color: var(--menu);
+    color: var(--font-white);
+
+    display: block;
+    padding: 0px 20px;
+}
+
+.botao:hover {
+    background-color: var(--menu-hover);
+}
+
+.link-sub-menu  {
+    text-align: center;
+    text-decoration: none;
+
+    color: var(--font-white);
+
+    display: block;
+    padding: 0px 20px;
+}
+
+.link-sub-menu:hover {
+    background-color: var(--menu-hover);
+}
+
+.li-p {
+    line-height: 35px;
+    float: right;
+}
+
+ul > li > ul > li {
+    background-color: var(--sub-menu);
+}
+
+.ul-sub {
+    margin: 1px 0px 0px 0px;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.402);
+    display: none;
+}
+
+.menu-container {
+    position: relative;
+    bottom: 45%;
+}
+
+/* HEADER */
+
+
+/* MAIN */
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.8em;
+    margin: 30px 0px 30px 0px;
+}
+
+h2 {
+    text-align: justify;
+    font-size: 1.5em;
+
+    margin: 30px 0px 30px 0px;
+}
+
+main {
+    margin: auto;
+    width: 80vw;
+}
+
+footer {
+    background-color: var(--footer);
+    color: var(--font-black);
+
+    font-size: 1.1em;
+    text-align: center;
+
+    position: fixed;
+    bottom: 0;
+
+    width: 100vw;
+    height: 25px;
+
+    padding-top: 4px;
+}
+
+footer > p > a {
+    text-decoration: none;
+    font-weight: bold;
+
+    color: var(--font-black);
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+}
+
+/* MAIN */
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
