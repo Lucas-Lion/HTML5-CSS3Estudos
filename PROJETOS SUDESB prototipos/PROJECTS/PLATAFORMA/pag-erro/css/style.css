@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+:root {
+    --body: #d0d8d8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--body);
+}
+
+main {
+    margin: auto;
+}
+
+.icone-erro {
+    display: flex;
+    justify-content: center;
+    margin: 16% 0px 40px 0px;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+/* RETORNO */
+
+#return {
+    width: 10px;
+}
+
+div > a > img:hover {
+    transition: transform 0.5s;
+    transform: translate(-2px, -2px);
+    border-radius: 10px;
+    width: 500%;
+}
+
+/* RETORNO */
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}

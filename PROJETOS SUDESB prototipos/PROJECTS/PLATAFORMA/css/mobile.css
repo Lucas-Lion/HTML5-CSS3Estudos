@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 100px) and (max-width:668px) {
+
+    header > nav > div > a > img {
+        width: 40%;
+        position: relative;
+        bottom: 10%;
+        left: 20%;
+    }
+
+    nav {
+        width: 100vw;
+    }
+
+    .menu-container {
+        position: relative;
+        bottom: 39%;
+        left: 5%;
+    }
+
+    .botao {
+        margin: 0px 0px 0px 17%;
+        width: 50%;
+    }
+
+    img#menu-img {
+        position: relative;
+        right: 20%;
+    }
+
+    h1 {
+        margin: 40px 0px 20px 0px;
+        font-size: 1.4em;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 1.4em;
+        text-align: center;
+    }
+
+    .box-container {
+        margin-bottom: 50px;
+    }
+
+    ::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+      }
+}
+
+@media screen and (min-width:1920px) {
+
+    main {
+        width: 50%;
+    }
+} 

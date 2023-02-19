@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/*   Typical Device Breakpoint 
+
+Pequenas telas:     até 600px
+celular:            600px até 768px
+Tablet:             768px até 992px 
+Desktop:            992px até 1200px
+Grandes telas:      acima de 1200px  
+
+*/
+
+@media screen and (min-width: 100px) and (max-width: 768px) {
+    
+    section#login {
+        margin: 0px 0px 50px 0px;
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+    }
+}
