@@ -1,1 +1,95 @@
 @charset "UTF-8";
+
+@media screen and (min-width: 992px) {
+
+    header {
+        background-image: linear-gradient(var(--BODY-1), var(--BODY-2));
+    }
+
+    #logomarca {
+        width: 15%;
+        display: block;
+        margin: auto;
+        padding: 5px 0px 5px 0px;
+    }
+
+    nav > a {
+        font-size: 1.3em;
+        margin: 0px 5px 0px 0px;
+    }
+
+    nav > a:hover {
+        padding: 6px 20px 5px 20px;
+    }
+
+    #home {
+        padding: 0px 10px 0px;
+    }
+
+    #logomarca-2 {
+        width: 20%;
+        padding: 10% 0px 0px 0px;
+    }
+
+    #texto-section-1 {
+        font-size: 1.5em;
+        opacity: 98%;
+    }
+
+    section.imagem {
+        padding: 0px 0px 16% 0px;
+    }
+
+    section#img02 {
+        background-size: cover;
+    }
+
+    h1 {
+        position: relative;
+        bottom: 150px;
+        text-align: center;
+        font-size: 2.5em;
+    }
+
+    h2 {
+        position: relative;
+        top: 100px;
+        padding: 5% 0px 0px 0px;
+        font-size: 2.5em;
+    }
+
+    #agenda {
+        width: 350%;
+        position: relative;
+        bottom: 70px;
+        left: 20px;
+    }
+
+    #produtos {
+        width: 30%;
+        margin: 10% 0px 0px 0px;
+        opacity: 78%;
+    }
+
+    h3 {
+        position: relative;
+        bottom: 160px;
+        font-size: 2.5em;
+    }
+
+    .redes-sociais {
+        position: relative;
+        left: 34%;
+        bottom: 60%;
+        width: 30%;
+    }
+
+    .bordas {
+        width: 50%;
+        margin: auto;
+    }
+
+    footer {
+        font-size: 1em;
+    }
+}

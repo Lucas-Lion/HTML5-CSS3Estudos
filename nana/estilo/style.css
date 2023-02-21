@@ -33,7 +33,7 @@
 /* HEADER */
 
 header {
-    background-color: var(--HEADER);
+    background-image: linear-gradient(var(--BODY-1), var(--BODY-2));
 }
 
 #logomarca {
@@ -43,8 +43,7 @@ header {
 }
 
 nav {
-    background-color: var(--NAV);
-    padding: 4px 0px 4px 0px;
+    padding: 0px 0px 4px 0px;
 }
 
 #home {
@@ -97,13 +96,19 @@ h3 {
     font-size: 1.9em;
 }
 
+.unidades {
+    margin: 0px 6px;
+}
+
 #texto-section-1 {
+    font-size: 0.9em;
+    display: inline-flex;
     padding: 0px 0px 20px 0px;
 }
 
 #logomarca-2 {
     margin: 20px 0px 20px 0px;
-    opacity: 78%;
+    opacity: 98%;
 }
 
 #produtos {
@@ -163,6 +168,11 @@ section#img02 {
     transition: transform 0.5s;
     transform: translate(-4px, -4px);
 }
+
+.unidades:hover {
+    transition: transform 0.5s;
+    transform: translate(3px, -3px);
+    }
 
 footer {
     background-color: var(--FOOTER);
