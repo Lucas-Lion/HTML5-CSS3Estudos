@@ -46,7 +46,7 @@
       
                         <div class="campo">
                             <label for="itel">Telefone</label>
-                            <input type="tel" name="tel" id="itel" placeholder="(00) 00000-0000" required>
+                            <input type="tel" name="tel" id="itel" pattern="\([0-9]{2}\)[9]{1}[0-9]{4}-[0-9]{4}" placeholder="(00) 00000-0000" required>
                         </div>
 
                     </fieldset>
@@ -63,7 +63,7 @@
                                 <input type="radio" name="option1" id="isim1" checked value="S"> <label for="isim1">Sim</label>
                                 <input type="radio" name="option1" id="inao1" value="N"> <label for="inao1">Não</label>
                             </label> <br>
-                            <input type="text" name="qual" id="iqual" placeholder="Se sim, qual?" required>
+                            <input type="text" name="qual" id="iqual" placeholder="Se sim, qual?">
                             
                             <br> <br>
 
@@ -72,7 +72,7 @@
                                 <input type="radio" name="option2" id="isim2" checked value="S"> <label for="isim2">Sim</label>
                                 <input type="radio" name="option2" id="inao2" value="N"> <label for="inao2">Não</label>
                             </label> <br>
-                            <input type="text" name="crono" id="icrono" placeholder="Se sim, com qual frequência?" required>
+                            <input type="text" name="crono" id="icrono" placeholder="Se sim, com qual frequência?">
                             
                             <br> <br>
 
@@ -89,7 +89,7 @@
                                 <input type="radio" name="option4" id="isim4" checked value="S"> <label for="isim4">Sim</label>
                                 <input type="radio" name="option4" id="inao4" value="N"> <label for="inao4">Não</label>
                             </label>
-                            <input type="number" name="semanas" id="isemanas" placeholder="Quantas semanas?" required>
+                            <input type="number" name="semanas" id="isemanas" placeholder="Quantas semanas?">
                             
                             <br> <br>
 
@@ -98,7 +98,7 @@
                                 <input type="radio" name="option5" id="isim5" checked value="S"> <label for="isim5">Sim</label>
                                 <input type="radio" name="option5" id="inao5" value="N"> <label for="inao5">Não</label>
                             </label>
-                            <input type="number" name="alergia" id="ialergia" placeholder="Quais?" required>
+                            <input type="number" name="alergia" id="ialergia" placeholder="Quais?">
                         </div>
 
                     </fieldset>
