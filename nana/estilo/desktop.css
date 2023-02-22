@@ -1,6 +1,8 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 @media screen and (min-width: 992px) {
+
 
     html {
         scroll-behavior: smooth;
@@ -18,8 +20,22 @@
     }
 
     nav {
-        text-align: justify;
+        font-family: 'Josefin Sans', sans-serif;
+        text-align: center;
         margin: 15px 0px 0px 0px;
+    }
+
+    nav .topo, nav .base {
+        background-image: linear-gradient(var(--NAV-1), var(--NAV-2));
+        border-radius: 5px 5px 0px 0px;
+        color: var(--FONT);
+
+        font-size: 0.9em;
+        text-decoration: none;
+
+        padding: 8px 5px 5px 5px;
+        position: relative;
+        bottom: 0px;
     }
 
     nav > a {
@@ -27,17 +43,24 @@
         margin: 0px 5px 0px 0px;
     }
 
-    nav > a:hover {
-        padding: 6px 20px 5px 10px;
+    #home {
+        padding: 0px 10px 0px 0px;
     }
 
-    #home {
-        padding: 0px 10px 0px;
+    #home:hover {
+        transition: transform 0.5s;
+        transform: translate(-3px, -3px);
     }
 
     #logomarca-2 {
         width: 20%;
         padding: 10% 0px 0px 0px;
+    }
+
+    nav > .topo:hover, .base:hover {
+        transition: 0.9s;
+        background-color: var(--NAV-HOVER);
+        padding: 8px 8px 5px 8px;
     }
 
     #texto-section-1 {
@@ -47,6 +70,10 @@
 
     section.imagem {
         padding: 0px 0px 16% 0px;
+    }
+
+    section.normal {
+        padding: 16% 0px 7% 0px;
     }
 
     section#img02 {
