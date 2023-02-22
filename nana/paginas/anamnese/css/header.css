@@ -1,0 +1,254 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Shantell+Sans:wght@300&display=swap');
+
+/* PALETA DE CORES */
+
+:root {
+    --NAV:         rgb(107, 68, 26);
+    --NAV-HOVER:   #523311;
+    --HEADER-1:    #60380d;
+    --HEADER-2:    #8c5a29;
+    --BODY-1:      #b5824b;
+    --BODY-2:      #a27240;
+    --FOOTER:      #6f4518;
+    --FONT:        #fffaf0;
+    --FONT-2:      #000000;
+    --SHADOW:      #0000005e;
+    --SECTION:     #f5f5f5;
+    --BOTAO:       #60380d;
+    --BOTAO-HOVER: #6f4518;
+}
+
+/* PALETA DE CORES */
+
+/* CONFIGURAÇÃO GERAL */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+}
+
+/* CONFIGURAÇÃO GERAL */
+
+/* HEADER */
+
+header {
+    background-image: linear-gradient(var(--HEADER-1), var(--HEADER-2));
+}
+
+#logomarca {
+    display: block;
+    margin: auto;
+    padding: 5px 0px 5px 0px;
+}
+
+nav {
+    padding: 0px 0px 4px 0px;
+}
+
+#home {
+    padding: 0px 6px;
+}
+
+nav > a {
+    color: var(--FONT);
+    font-size: 0.9em;
+    text-decoration: none;
+    padding: 8px 5px 4px 5px;
+}
+
+nav > a > p {
+    display: inline;
+    position: relative;
+    bottom: 4px;
+}
+
+nav > a:hover {
+    transition: 0.9s;
+    background-color: var(--NAV-HOVER);
+}
+
+/* HEADER */
+
+/* ANAMNESE */
+
+main {
+    margin: auto;
+    width: 95vw;
+}
+
+hr {
+    margin: auto;
+    width: 90%;
+    height: 1px;
+    background-color: #0000008a;
+}
+
+section {
+    background-color: var(--SECTION);
+
+    box-shadow: 1px 1px 10px var(--SHADOW);
+    border-radius: 10px;
+
+    margin: 20px 0px;
+    padding: 15px 0px 15px 0px;
+}
+
+#titulo {
+    font-family: sans-serif;
+    font-size: 1.4em;
+    text-align: center;
+
+    color: var(--FONT);
+    background-image: linear-gradient(var(--HEADER-1), var(--HEADER-2));
+    box-shadow: 1px 1px 10px var(--SHADOW);
+    border-radius: 10px 0px 10px 0px;
+   
+    margin: auto;
+    width: 60%;
+    padding: 5px 0px;    
+}
+
+fieldset {
+    color: var(--FONT-2);
+    border: 0;
+    margin-left: 5%;
+}
+
+input {
+    border-radius: 10px 0px 10px 0px;
+}
+
+/* GRUPO 1 */
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo label {
+    display: block;
+    margin-bottom: 1.2em;
+}
+
+fieldset.grupo .campo {
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="number"], .campo input[type="tel"]{
+    padding: 0.2em;
+    padding-left: 10px;
+    border: 1px solid #606060;
+}
+
+/* GRUPO 1 */
+
+/* GRUPO 2 */
+
+.campo-2 {
+    margin-bottom: 1em;
+}
+
+.campo-2 label {
+    display: inline-block;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+fieldset.grupo .campo-2 {
+    float: left;
+    margin-right: 1em;
+}
+
+.campo-2 input[type="text"], .campo-2 input[type="number"], .campo-2 input[type="tel"]{
+    padding: 0.2em;
+    padding-left: 10px;
+    width: 92%;
+    text-align: left;
+    border: 1px solid #606060;
+}
+
+/* GRUPO 2 */
+
+/* GRUPO 3 */
+
+.campo-3 input[type="text"]{
+    padding: 0.2em;
+    padding-left: 10px;
+    width: 88%;
+    text-align: left;
+    border: 1px solid #606060;
+}
+
+/* GRUPO 3 */
+
+.position-button {
+    display: flex;
+    justify-content: center;
+}
+
+.botao {
+    width: 20%;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--BOTAO);
+    color: var(--FONT);
+}
+
+.botao:hover {
+    background-color: var(--BOTAO-HOVER);
+}
+
+/* ANAMNESE */
+
+/* FOOOTER LOGOS */
+
+footer > p {
+    font-size: 1.2em;
+    position: relative;
+    top: 8px;
+} 
+
+.redes {
+    display: inline-flex;
+    width: 20px;
+    position: relative;
+    bottom: 10px;
+    left: 37%;
+    margin-right: 5px;
+}
+
+.redes:hover {
+    transition: transform 0.5s;
+    transform: translate(3px, -3px);
+    }
+
+/* FOOTER LOGOS */
+
+/* BODY */
+
+body {
+    background-image: linear-gradient(var(--BODY-1), var(--BODY-2));
+    min-height: 100vh;
+}
+
+footer {
+    background-color: var(--FOOTER);
+    font-size: 0.7em;
+    font-style: italic;
+    text-align: center;
+    padding: 5px 0px;
+    box-shadow: 1px 1px 10px var(--SHADOW);
+    color: var(--FONT);
+}
+
+/* BODY */
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
