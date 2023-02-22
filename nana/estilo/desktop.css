@@ -2,6 +2,10 @@
 
 @media screen and (min-width: 992px) {
 
+    html {
+        scroll-behavior: smooth;
+    }
+
     header {
         background-image: linear-gradient(var(--BODY-1), var(--BODY-2));
     }
@@ -13,13 +17,18 @@
         padding: 5px 0px 5px 0px;
     }
 
+    nav {
+        text-align: justify;
+        margin: 15px 0px 0px 0px;
+    }
+
     nav > a {
-        font-size: 1.3em;
+        font-size: 1.1em;
         margin: 0px 5px 0px 0px;
     }
 
     nav > a:hover {
-        padding: 6px 20px 5px 20px;
+        padding: 6px 20px 5px 10px;
     }
 
     #home {
@@ -51,6 +60,25 @@
         font-size: 2.5em;
     }
 
+    #historia {
+        width: 60%;
+        text-align: justify;
+        font-size: 1.6em;
+        position: relative;
+        bottom: 85px;
+        left: 20%;
+    }
+
+    #ambiente {
+        font-size: 1.6em;
+        width: 60%;
+        text-align: justify;
+        font-size: 1.6em;
+        position: relative;
+        top: 100px;
+        left: 20%;
+    }
+
     h2 {
         position: relative;
         top: 100px;
@@ -74,6 +102,18 @@
     h3 {
         position: relative;
         bottom: 160px;
+        font-size: 2.5em;
+    }
+
+    h4 {
+        position: relative;
+        top: 70px;
+        font-size: 2.5em;
+    }
+
+    h5 {
+        position: relative;
+        bottom: 145px;
         font-size: 2.5em;
     }
 

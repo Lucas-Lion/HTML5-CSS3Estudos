@@ -28,6 +28,10 @@
     color: var(--FONT);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* CONFIGURAÇÃO GERAL */
 
 /* HEADER */
@@ -43,14 +47,33 @@ header {
 }
 
 nav {
+    text-align: justify;
     padding: 0px 0px 4px 0px;
 }
 
 #home {
-    padding: 0px 6px;
+    position: relative;
+    left: 7px;
+    top: 3px;
+    padding: 5px 10px;
+    margin-bottom: 7px;
 }
 
-nav > a {
+#home:hover {
+    transition: transform 0.5s;
+    transform: translate(3px, -3px);
+}
+
+nav .topo {
+    color: var(--FONT);
+    font-size: 0.9em;
+    text-decoration: none;
+    padding: 8px 5px 0px 5px;
+    position: relative;
+    bottom: 5px;
+}
+
+nav .base {
     color: var(--FONT);
     font-size: 0.9em;
     text-decoration: none;
@@ -64,6 +87,16 @@ nav > a > p {
 }
 
 nav > a:hover {
+    transition: transform 0.5s;
+    transform: translate(3px, -3px);
+}
+
+.topo:hover {
+    transition: 0.9s;
+    background-color: var(--NAV-HOVER);
+}
+
+.base:hover {
     transition: 0.9s;
     background-color: var(--NAV-HOVER);
 }
@@ -84,6 +117,19 @@ h1 {
     font-size: 1.9em;
 }
 
+#historia {
+    width: 90%;
+    position: relative;
+    left: 6%;
+    text-align: justify;
+    padding: 10px 0px 30px 0px;
+}
+
+#ambiente {
+    text-align: center;
+    padding: 10px 0px 30px 0px;
+}
+
 h2 {
     padding: 20px 0px 0px 0px;
     font-size: 1.9em;
@@ -94,6 +140,19 @@ h3 {
     position: relative;
     bottom: 40px;
     font-size: 1.9em;
+}
+
+h4 {
+    padding: 30px 0px 30px 0px;
+    font-size: 1.9em;
+}
+
+h5 {
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+    font-size: 1.9em;
+    
 }
 
 .unidades {
@@ -137,7 +196,13 @@ section#img01 {
 section#img02 {
     background-image: url(../imagens/img\ 2.png);
     background-position: right center;
-    background-size: cover 50%;
+    background-size: cover;
+}
+
+section#img03 {
+    background-image: url(../imagens/img\ 3.jpg);
+    background-position: right center;
+    background-size: cover;
 }
 
 .midias {
