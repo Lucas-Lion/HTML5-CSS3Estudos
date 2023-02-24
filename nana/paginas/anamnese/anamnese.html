@@ -58,60 +58,78 @@
                     <fieldset class="grupo">
 
                         <div class="campo-2">
-                            <label>Escolha uma opção:</label>
+                            <label>Realizou algum procedimento capilar recentemente?</label>
 
-                                <label for="opcao-sim">
-                                <input type="radio" id="opcao-sim" name="opcao" value="Sim"> Sim
-                                </label>
-
-                                <label for="opcao-nao">
-                                <input type="radio" id="opcao-nao" name="opcao" value="Não"> Não
-                                </label>
-    
+                            <label>
+                              <input type="radio" id="opcao-sim" name="opcao" value="Sim"> Sim
+                            </label>
+                            
+                            <label>
+                              <input type="radio" id="opcao-nao" name="opcao" value="Não"> Não
+                            </label>
+                            
                             <div id="resposta">
-                            <input type="text" id="resposta-texto" name="resposta-texto">
+                              <input type="text" id="resposta-texto" name="resposta-texto" placeholder="Se sim, qual?" required>
+                            </div>
+
+                            <br> <br>
+
+                            <label>Realiza cronograma, hidratação ou reconstrução?</label>
+
+                            <label>
+                              <input type="radio" id="opcao-sim1" name="opcao1" value="Sim"> Sim
+                            </label>
+
+                            <label>
+                              <input type="radio" id="opcao-nao1" name="opcao1" value="Não"> Não
+                            </label>
+                            
+                            <div id="resposta">
+                              <input type="text" id="resposta-texto1" name="resposta-texto" placeholder="Se sim, com qual frequência?" required>
+                            </div>
+
+                            <br> <br>
+
+                            <label>Gestante?</label>
+
+                            <label>
+                              <input type="radio" id="opcao-sim2" name="opcao2" value="Sim"> Sim
+                            </label>
+
+                            <label>
+                              <input type="radio" id="opcao-nao2" name="opcao2" value="Não"> Não
+                            </label>
+                            
+                            <div id="resposta">
+                              <input type="text" id="resposta-texto2" name="resposta-texto" placeholder="Quantas semanas?" required>
+                            </div>
+
+                            <br> <br>
+
+                            <label>Alergias?</label>
+
+                            <label>
+                              <input type="radio" id="opcao-sim3" name="opcao3" value="Sim"> Sim
+                            </label>
+
+                            <label>
+                              <input type="radio" id="opcao-nao3" name="opcao3" value="Não" required> Não
+                            </label>
+                            
+                            <div id="resposta">
+                              <input type="text" id="resposta-texto3" name="resposta-texto" placeholder="Quais?" required>
                             </div>
                             
                             <br> <br>
 
-                            <label for="icrono">Realiza cronograma, hidratação ou reconstrução?</label>
+                            <label for="">Utiliza prancha, secador ou modelador de cachos?</label> <br> <br>
                             <label for="">
-                                <input type="radio" name="option2" id="isim2" checked value="S"> <label for="isim2">Sim</label>
-                                <input type="radio" name="option2" id="inao2" value="N"> <label for="inao2">Não</label>
-                            </label> <br>
-                            <input type="text" name="crono" id="icrono" placeholder="Se sim, com qual frequência?">
-                            
-                            <br> <br>
-
-                            <label for="">Utiliza prancha, secador ou modelador de cachos?</label>
-                            <label for="">
-                                <input type="radio" name="option3" id="isim3" checked value="S"> <label for="isim3">Sim</label>
-                                <input type="radio" name="option3" id="inao3" value="N"> <label for="inao3">Não</label>
+                                <input type="radio" name="opcao4" id="isim3" checked value="S"> <label for="isim3">Sim</label>
+                                <input type="radio" name="opcao4" id="inao3" value="N"> <label for="inao3">Não</label>
                             </label>
-                            
-                            <br>
-
-                            <label for="isemanas">Gestante?</label>
-                            <label for="">
-                                <input type="radio" name="option4" id="isim4" checked value="S"> <label for="isim4">Sim</label>
-                                <input type="radio" name="option4" id="inao4" value="N"> <label for="inao4">Não</label>
-                            </label>
-                            <input type="number" name="semanas" id="isemanas" placeholder="Quantas semanas?">
-                            
-                            <br> <br>
-
-                            <label for="ialergia">Alergia?</label>
-                            <label for="">
-                                <input type="radio" name="option5" id="isim5" checked value="S"> <label for="isim5">Sim</label>
-                                <input type="radio" name="option5" id="inao5" value="N"> <label for="inao5">Não</label>
-                            </label>
-                            <input type="number" name="alergia" id="ialergia" placeholder="Quais?">
                         </div>
-
-                    </fieldset>
-
+                    </fieldset> 
                     
-
                     <fieldset class="grupo">
 
                         <div class="question">
@@ -133,7 +151,7 @@
                         <br>
                         <div class="campo-3">
                             <label for="itratamento">Qual o tipo de tratamento o(a) cliente deseja utilizar?</label> <br> <br>
-                            <input type="text" name="tratamento" id="itratamento" placeholder="Digite o tratamento desejado">
+                            <input type="text" name="tratamento" id="itratamento" placeholder="Digite o tratamento desejado" required>
                         </div>
 
                     </fieldset>
@@ -154,18 +172,6 @@
             <a href="https://www.facebook.com/salaonana/" target="_blank"><img class="social" src="../../imagens/facebook.png"  width="100%" alt="Facebook"></a>
         </div>
     </footer>
-
-    <script>
-    const opcaoSim = document.getElementById('opcao-sim')
-    const resposta = document.getElementById('resposta-texto')
-    
-    opcaoSim.addEventListener('change', function() {
-      if (opcaoSim.checked) {
-        resposta.required = true
-      } else {
-        resposta.required = false
-      }
-    })
-  </script>
+   <script src="js/script.js"></script>
 </body>
 </html>
