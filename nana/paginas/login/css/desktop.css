@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) and (max-width: 1700px){
 
     header {
         background-image: linear-gradient(var(--HEADER-1), var(--HEADER-2));
@@ -43,6 +43,60 @@
         font-size: 1.2em;
         position: relative;
         top: 15px;
+    } 
+
+    .redes {
+        width: 30px;
+        bottom: 10px;
+        left: 46%;
+    }
+}
+
+@media screen and (min-width: 1700px) and (max-width: 2500px) {
+
+    header {
+        background-image: linear-gradient(var(--HEADER-1), var(--HEADER-2));
+        box-shadow: 1px 1px 10px var(--SHADOW);
+    }
+
+    #logomarca {
+        width: 15%;
+        display: block;
+        margin: auto;
+        padding: 5px 0px 5px 0px;
+    }
+
+    nav > a {
+        font-size: 1.1em;
+        margin: 0px 5px 0px 0px;
+    }
+
+    nav > a:hover {
+        padding: 6px 20px 4px 20px;
+    }
+
+    footer {
+        font-size: 1em;
+        position: relative;
+        top: 20px;
+    }
+
+    section#login {
+        display: block;
+        margin: 30px 0px 50px 0px;
+        padding-top: 2%;
+        
+        background-color: var(--SECTION);
+        width: 500px;
+        
+        border-radius: 20px 0px 20px 0px;
+        box-shadow: 0px 0px 10px var(--SHADOW);
+    }
+
+    footer > p {
+        font-size: 1.2em;
+        position: relative;
+        top: 13px;
     } 
 
     .redes {
