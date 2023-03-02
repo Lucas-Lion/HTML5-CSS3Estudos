@@ -53,9 +53,12 @@
                         </div>
 
                         <div class="campo" id="perfil">
-                            <label for="itel">Anexe uma foto para o seu perfil:</label>
-                            <input type="file" name="arquivos" accept="image/png, image/jpeg"/>
-                        </div>
+                            <label for="itel"><strong>Anexe uma foto para o seu perfil:</strong></label> 
+                            <input type="file" name="arquivos" accept="image/png, image/jpeg" id="input-imagem"/> <br> <br>
+                            <div class="borda">
+                                <img src="" alt="" id="imagem-perfil"/>
+                            </div>
+                        </div> 
                     </fieldset>
                     
                     <div class="position-button"><button class="botao" type="submit">Enviar</button></div>
@@ -77,5 +80,6 @@
         </div>
     </footer>
     <script src="js/script.js"></script>
+    <script src="js/display.js"></script>
 </body>
 </html>

@@ -140,6 +140,19 @@
         margin-right: 285px;
     }
 
+    #telefone {
+        position: relative;
+        bottom: 10%;
+    }
+
+    #perfil {
+        position: relative;
+        top: 15px;
+        bottom: 0%;
+        left: 24%;
+        padding-bottom: 50px;
+    }
+
     .campo input[type="text"], .campo input[type="number"], .campo input[type="tel"]{
         width: 90%;
         padding: 10px 0px 10px 10px;
