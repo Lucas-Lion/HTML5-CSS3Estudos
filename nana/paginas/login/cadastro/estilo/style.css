@@ -121,8 +121,22 @@ section {
 
 #perfil {
     position: relative;
-    bottom: 50px;
+    bottom: 0px;
     left: 30px;
+    padding-bottom: 30px;
+}
+
+#matricula {
+    position: relative;
+    top: 79px;
+}
+
+#isenha {
+    padding-right: 70px;
+}
+
+#isenha2 {
+    padding-right: 70px;
 }
 
 #titulo {
@@ -166,7 +180,7 @@ fieldset.grupo .campo {
     margin-right: 1em;
 }
 
-.campo input[type="text"], .campo input[type="number"], .campo input[type="tel"]{
+.campo input[type="text"], .campo input[type="number"], .campo input[type="tel"], .campo input[type="password"]{
     padding: 0.2em;
     padding-left: 10px;
     border: 1px solid #606060;
