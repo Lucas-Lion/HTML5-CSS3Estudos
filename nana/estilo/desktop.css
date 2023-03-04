@@ -1,90 +1,100 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
+:root {
+    --HEADER:       #815321;
+    --NAV-1:        #60380d5b;
+    --NAV-2:        #60380d49;
+    --NAV-HOVER:    #523311;
+    --BODY-1:       #60380d;
+    --BODY-2:       #8c5a29;
+    --FOOTER:       #6f4518;
+    --FONT:         #fffaf0;
+    --SHADOW:       #00000075;
+}
+
 @media screen and (min-width: 992px) {
-
-
     html {
-        scroll-behavior: smooth;
+      scroll-behavior: smooth;
     }
-
+  
     header {
-        background-image: linear-gradient(var(--BODY-1), var(--BODY-2));
+      background-image: linear-gradient(var(--BODY-1), var(--BODY-2));
     }
-
+  
     #logomarca {
-        width: 15%;
-        display: block;
-        margin: auto;
-        padding: 5px 0px 5px 0px;
+      width: 15%;
+      display: block;
+      margin: auto;
+      padding: 5px 0;
     }
-
+  
     nav {
-        font-family: 'Josefin Sans', sans-serif;
-        text-align: center;
-        margin: 15px 0px 0px 0px;
+      font-family: 'Josefin Sans', sans-serif;
+      text-align: center;
+      margin: 15px 0 0;
     }
-
-    nav .topo, nav .base {
-        background-image: linear-gradient(var(--NAV-1), var(--NAV-2));
-        border-radius: 5px 5px 0px 0px;
-        color: var(--FONT);
-
-        font-size: 0.9em;
-        text-decoration: none;
-
-        padding: 8px 5px 5px 5px;
-        position: relative;
-        bottom: 0px;
+  
+    nav .topo,
+    nav .base {
+      background-image: linear-gradient(var(--NAV-1), var(--NAV-2));
+      border-radius: 5px 5px 0 0;
+      color: var(--FONT);
+      font-size: 0.9em;
+      text-decoration: none;
+      padding: 8px 5px 5px;
+      position: relative;
+      bottom: 0;
     }
-
+  
     nav > a {
-        font-size: 1.1em;
-        margin: 0px 5px 0px 0px;
+      font-size: 1.1em;
+      margin: 0 5px 0 0;
     }
-
+  
     #home {
-        padding: 0px 10px 0px 0px;
+      padding-right: 10px;
     }
-
+  
     #home:hover {
-        transition: transform 0.5s;
-        transform: translate(-3px, -3px);
+      transition: transform 0.5s;
+      transform: translate(-3px, -3px);
     }
-
+  
     #logomarca-2 {
-        width: 20%;
-        padding: 10% 0px 0px 0px;
+      width: 20%;
+      padding-top: 10%;
     }
-
-    nav > .topo:hover, .base:hover {
-        transition: 0.9s;
-        background-color: var(--NAV-HOVER);
-        padding: 8px 8px 5px 8px;
+  
+    nav > .topo:hover,
+    .base:hover {
+      transition: 0.9s;
+      background-color: var(--NAV-HOVER);
+      padding: 8px;
     }
-
+  
     #texto-section-1 {
-        font-size: 1.5em;
-        opacity: 98%;
+      font-size: 1.5em;
+      opacity: 0.98;
     }
-
+  
     section.imagem {
-        padding: 0px 0px 16% 0px;
+      padding: 0 0 16% 0;
     }
-
+  
     section.normal {
-        padding: 16% 0px 7% 0px;
+      padding: 16% 0 7% 0;
     }
-
+  
     section#img02 {
-        background-size: cover;
+      background-size: cover;
     }
-
+  
     h1 {
-        position: relative;
-        bottom: 150px;
-        text-align: center;
-        font-size: 2.5em;
+      position: relative;
+      bottom: 150px;
+      text-align: center;
+      font-size: 2.5em;
     }
 
     #historia {
@@ -96,7 +106,7 @@
         left: 20%;
     }
 
-    #ambiente {
+    #descricao-ambiente {
         font-size: 1.6em;
         width: 60%;
         text-align: justify;
