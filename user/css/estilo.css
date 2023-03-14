@@ -26,7 +26,7 @@ body {
 nav {
     background-color: var(--HEADER);
 
-    height: 4rem;
+    height: 4rem; 
     gap: 5rem;
 
     display: flex;
@@ -57,7 +57,7 @@ aside {
     background-color: var(--ASIDE);
     width: 40%;
     height: 82vh;
-    margin-top: -37px;
+    margin-top: -42px;
 }
 
 picture {
@@ -102,20 +102,19 @@ li:hover {
     background-color: var(--OPTIONS-HOVER);
 }
 
-main {
+section {
     display: flex;
-    justify-content: right;
+    justify-content: center;
+    width: 140%;
 }
 
 h1 {
-    background-color: var(--H1-BG);
     color: var(--FONT);
 
     font-size: 1.2em;
     font-weight: normal;
 
-    margin: 0 0 0 0;
-    padding: 5px 10% 0 15%;
+    margin: 10px 0px 0px 0px;
     height: 2rem;
 }
 
