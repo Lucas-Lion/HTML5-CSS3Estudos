@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --HEADER:        #815321;
+    --NAV-HOVER:     #ffffff;
+    --ASIDE:         #b58d62;
+    --OPTIONS:       #81582c;
+    --OPTIONS-HOVER: #674623;
+    --H1-BG:         #c7a58172;
+    --MAIN:          #8c5a29;
+    --FOOTER:        #815321;
+    --FONT:          #fffaf0;
+    --SHADOW:        #00000075;
+}
+
+body {
+    background-color: var(--MAIN);
+}
+
+nav {
+    background-color: var(--HEADER);
+
+    height: 4rem;
+    gap: 5rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: var(--FONT);
+}
+
+#home:hover {
+    transition: transform 0.5s;
+    transform: translate(3px, 3px);
+}
+
+#sair:hover {
+    color: var(--NAV-HOVER);
+    text-decoration: underline;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background-color: var(--ASIDE);
+    width: 40%;
+    height: 82vh;
+    margin-top: -37px;
+}
+
+picture {
+    display: flex;
+    height: 20%;
+    padding: 8% 0;
+}
+
+#foto-perfil {
+    display: block;
+    margin: auto;
+
+    border: 2px solid black;
+    border-radius: 100%;
+
+    background-color: white;
+
+    width: 50%;
+    height: 100%;
+}
+
+#foto {
+    display: block;
+    margin: auto;
+    border-radius: 100%;
+    height: 100%;
+    width: 100%;
+}
+
+ul {
+    background-color: var(--OPTIONS);
+    color: var(--FONT);
+    text-align: center;
+    line-height: 3.1em;
+}
+
+li {
+    border: 1px solid var(--ASIDE);
+}
+
+li:hover {
+    background-color: var(--OPTIONS-HOVER);
+}
+
+main {
+    display: flex;
+    justify-content: right;
+}
+
+h1 {
+    background-color: var(--H1-BG);
+    color: var(--FONT);
+
+    font-size: 1.2em;
+    font-weight: normal;
+
+    margin: 0 0 0 0;
+    padding: 5px 10% 0 15%;
+    height: 2rem;
+}
+
+footer {
+    background-color: var(--FOOTER);
+    color: var(--FONT);
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 2em;
+    height: 3rem;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.logos:hover {
+    transition: transform 0.5s;
+    transform: translate(3px, 3px);
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
