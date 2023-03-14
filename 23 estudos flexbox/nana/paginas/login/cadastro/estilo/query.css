@@ -1,0 +1,230 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 992px) and (max-width: 1700px) {
+
+    header {
+        background-image: linear-gradient(var(--HEADER-1), var(--HEADER-2));
+        box-shadow: 1px 1px 10px var(--SHADOW);
+    }
+
+    #logomarca {
+        width: 15%;
+        display: block;
+        margin: auto;
+        padding: 5px 0px 5px 0px;
+    }
+
+    nav > a {
+        font-size: 1.0em;
+        margin: 0px 5px 0px 0px;
+    }
+
+    nav > a:hover {
+        padding: 6px 20px 4px 20px;
+    }
+
+    footer {
+        font-size: 1em;
+    }
+
+    footer > p {
+        font-size: 1.2em;
+        position: relative;
+        top: 15px;
+    } 
+
+    .redes {
+        width: 30px;
+        bottom: 10px;
+        left: 46%;
+    }
+
+    main {
+        width: 50%;
+    }
+
+    form {
+        padding-top: 20px;
+    }
+
+    #titulo {
+        font-size: 1.9em;
+    }
+
+    #gp1 {
+        width: 100%;
+        margin-left: 5%;
+    }
+
+    #inome {
+        margin-right: 285px;
+    }
+
+    #icpf {
+        margin-right: 285px;
+    }
+
+    #telefone {
+        position: relative;
+        bottom: 10%;
+    }
+
+    #perfil {
+        position: relative;
+        top: 15px;
+        bottom: 0%;
+        left: 22%;
+        padding-bottom: 50px;
+    }
+
+    #matricula {
+        position: relative;
+        top: 0px;
+    }
+    
+    #isenha {
+        padding-right: 138%;
+    }
+    
+    #isenha2 {
+        padding-right: 87%;
+    }
+
+    #caixa-senha2 {
+        position: relative;
+        right: 28%;
+        top: 100px;
+        padding-bottom: 90px;
+    }
+
+    .campo input[type="text"], .campo input[type="number"], .campo input[type="tel"], .campo input[type="password"]{
+        width: 90%;
+        padding: 10px 0px 10px 10px;
+    }
+
+    .campo-2 input[type="text"], .campo-2 input[type="number"], .campo-2 input[type="tel"]{
+        width: 110%;
+        padding: 7px 0px 7px 10px;
+    }
+
+    .campo-3 input[type="text"], .campo-3 input[type="number"], .campo-3 input[type="tel"]{
+        width: 90%;
+        padding: 7px 0px 7px 10px;
+    }
+
+    label {
+        font-size: 1em;
+    }
+
+}
+
+@media screen and (min-width: 1700px) and (max-width: 2500px) {
+    header {
+        background-image: linear-gradient(var(--HEADER-1), var(--HEADER-2));
+        box-shadow: 1px 1px 10px var(--SHADOW);
+    }
+
+    #logomarca {
+        width: 15%;
+        display: block;
+        margin: auto;
+        padding: 5px 0px 5px 0px;
+    }
+
+    nav > a {
+        font-size: 1.1em;
+        margin: 0px 5px 0px 0px;
+    }
+
+    nav > a:hover {
+        padding: 6px 20px 4px 20px;
+    }
+
+    footer {
+        font-size: 1em;
+    }
+
+    footer > p {
+        font-size: 1.2em;
+        position: relative;
+        top: 15px;
+    } 
+
+    .redes {
+        width: 30px;
+        bottom: 10px;
+        left: 46%;
+    }
+
+    main {
+        width: 45%;
+    }
+
+    #titulo {
+        font-size: 1.9em;
+    }
+
+    #gp1 {
+        width: 100%;
+        margin-left: 5%;
+    }
+
+    #inome {
+        margin-right: 285px;
+    }
+
+    #icpf {
+        margin-right: 285px;
+    }
+
+    #telefone {
+        position: relative;
+        bottom: 10%;
+    }
+
+    #perfil {
+        position: relative;
+        top: 15px;
+        bottom: 0%;
+        left: 25%;
+        padding-bottom: 50px;
+    }
+
+    #matricula {
+        position: relative;
+        top: 0px;
+    }
+    
+    #isenha {
+        padding-right: 138%;
+    }
+    
+    #isenha2 {
+        padding-right: 0px;
+    }
+
+    #caixa-senha2 {
+        position: relative;
+        left: 36%;
+    }
+    
+
+    .campo input[type="text"], .campo input[type="number"], .campo input[type="tel"], .campo input[type="password"]{
+        width: 90%;
+        padding: 10px 0px 10px 10px;
+    }
+
+    .campo-2 input[type="text"], .campo-2 input[type="number"], .campo-2 input[type="tel"]{
+        width: 110%;
+        padding: 7px 0px 7px 10px;
+    }
+
+    .campo-3 input[type="text"], .campo-3 input[type="number"], .campo-3 input[type="tel"]{
+        width: 90%;
+        padding: 7px 0px 7px 10px;
+    }
+
+    label {
+        font-size: 1em;
+    }
+}

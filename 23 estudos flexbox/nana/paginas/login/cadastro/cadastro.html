@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/query.css">
+    <link rel="shortcut icon" href="../../../imagens/nana-icone.ico" type="image/x-icon">
+    <title>Cadastro</title>
+</head>
+<body>
+    <header>
+        <img id="logomarca" src="../../../imagens/nana-logo-name.png" width="30%" alt="Logomarca Nana">
+        <nav>
+            <a href="../../../index.html" target="_self"><img id="home" src="../../../imagens/home.png" width="20px" alt="icone home"></a>
+            <a href="../login.html"><p>Fazer login</p></a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <section id="anamnese">
+
+                <h1 id="titulo">Cadastro</h1>
+                <br>
+                <form action="anamnese.php">
+                    <fieldset class="grupo" id="gp1">
+
+                        <div class="campo">
+                            <label for="inome">Nome completo</label>
+                            <input type="text" name="nome" id="inome" placeholder="Nome completo" required>
+                        </div>
+                     
+                        <div class="campo" id="matricula">
+                            <label for="imat">Matrícula</label>
+                            <input type="number" name="mat" id="imat" placeholder="Digite sua matrícula" required>
+                        </div>
+                
+                        <div class="campo">
+                            <label for="icpf">CPF</label>
+                            <input type="number" name="cpf" id="icpf" placeholder="Digite seu CPF" required>
+                        </div>
+      
+                        <div class="campo" id="telefone">
+                            <label for="itel">Telefone</label>
+                            <input type="tel" name="tel" id="itel" pattern="\([0-9]{2}\)[9]{1}[0-9]{4}-[0-9]{4}" placeholder="(00) 00000-0000" required>
+                        </div>
+
+                        <div class="campo">
+                            <label for="isenha">Digite sua senha</label>
+                            <input type="password" name="senha2" id="isenha" placeholder="Digite sua senha" required>
+                        </div>
+
+                        <div class="campo" id="caixa-senha2">
+                            <label for="isenha2">Digite a senha novamente:</label>
+                            <input type="password" name="senha" id="isenha2" placeholder="Digite novamente" required>
+                        </div>
+
+                        <div class="campo" id="perfil">
+                            <label for="input-imagem"><strong>Anexe uma foto para o seu perfil:</strong></label> 
+                            <input type="file" name="arquivos" accept="image/png, image/jpeg" id="input-imagem" required/> <br> <br>
+                            <div class="borda">
+                                <img src="" alt="" id="imagem-perfil"/>
+                            </div>
+                        </div> 
+                        
+                    </fieldset>
+                    
+                    <div class="position-button"><button class="botao" type="submit">Enviar</button></div>
+                    <br>
+                </form>
+            </section>
+        </div>
+    </main>
+
+
+
+    <footer>
+        <p>Nana Beleza & Bem Estar &copy;</p>
+        <div class="redes">
+            <a href="https://www.instagram.com/salaonanabelezaebemestar/" target="_blank"><img class="social" src="../../../imagens/instagram.png" width="100%" alt="Instagram"></a>
+        </div>
+        <div class="redes">
+            <a href="https://www.facebook.com/salaonana/" target="_blank"><img class="social" src="../../../imagens/facebook.png"  width="100%" alt="Facebook"></a>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/display.js"></script>
+</body>
+</html>
