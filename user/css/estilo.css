@@ -56,7 +56,7 @@ aside {
     justify-content: left;
     background-color: var(--ASIDE);
     width: 50%;
-    height: 82vh;
+    height: 85vh;
     margin-top: -42px;
 }
 
@@ -127,7 +127,11 @@ footer {
     align-items: center;
 
     gap: 2em;
-    height: 3rem;
+    height: 30px;
+
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
 }
 
 .redes {
