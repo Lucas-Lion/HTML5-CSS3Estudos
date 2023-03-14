@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 892px) {
 
     html {
         scroll-behavior: smooth;
@@ -10,27 +10,12 @@
         font-size: 1.6rem;
         font-family: 'Roboto', sans-serif;
         background-color: var(--BODY);
-        min-height: 100vh;
+       
     }
     
     a {
         text-decoration: none;
         color: var(--nav-text-color);
-    }
-    
-    #home:hover {
-        transition: transform 1s;
-        transform: translate(-3px, -3px);
-    }
-    
-    .text {
-        padding: 2rem 0;
-    }
-    
-    .text:hover {
-        background-color: #2a19076f;
-        transition: 0.8s;
-        padding: 2.6rem 2rem 2.6rem 2rem;
     }
     
     nav {
@@ -48,27 +33,102 @@
         color: var(--nav-text-color);
         
         height: 7rem;
-        opacity: 90%;
+        opacity: 100%;
+    }
+    
+    .menu-container {
+        position: relative;
+        width: 60vw;
     }
     
     ul {
-        display: flex;
-        align-items: center;
         list-style: none;
-        gap: 3rem;
+    }
+    
+    #ul-principal {
+        width: 100%;
+        margin: auto;
+    }
+    
+    img#menu-img {
+        display: block;
+        padding: 5px 0px;
+        height: 30px;
+    }
+    
+    .botao {
+        text-align: center;
+        text-decoration: none;
+        
+        color: var(--font-white);
+    
+        display: block;
+        padding: 6px 8px;
+    
+        border-radius: 100%;
+    }
+    
+    .botao:hover {
+        background-color: #4528085e;
+    }
+    
+    .link-sub-menu  {
+        text-align: center;
+        text-decoration: none;
+    
+        color: white;
+    
+        display: block;
+        padding: 0px 26px;
+    }
+    
+    .link-sub-menu:hover {
+        color: rgb(211, 202, 202);
+        background-color: #6f471f;
+    }
+    
+    .li-p {
+        line-height: 35px;
+        float: right;
+    }
+    
+    ul > li > ul > li {
+        background-color: #ac865f;
+        text-align: center;
+    }
+    
+    .ul-sub {
+        position: absolute;
+        left: 49%;
+        width: 43%;
+        margin: 1px 0px 0px 0px;
+        box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.402);
+        display: none;
     }
     
     /* BODY */
     
-    #nana {
+    .container {
         display: block;
-        margin: auto;
+    }
+    
+    #logo-marca {
+        display: flex;
+        justify-content: center;
+        padding: 0px 0px 0px 45px;
     }
     
     #unidades {
-        font-size: 1.3em;
+        font-size: 0.9em;
+        font-weight: bold;
+        text-align: center;
         color: var(--FONT);
-        margin: 10px 0px 0px 0px;
+        padding: 0px 0px 0px 15px;
+        margin: 20px 0px 0px 0px;
+    }
+    
+    #ambiente-texto {
+        padding: 0 16px;
     }
     
     .kerastase {
@@ -86,7 +146,7 @@
     .redes {
         display: flex;
         justify-content: space-between;
-        gap: 10em;
+        gap: 5em;
     }
     
     .movimento:hover {
@@ -97,7 +157,7 @@
     h1, h2, h3, h4, h5 {
        color: var(--FONT);
        text-align: center;
-       font-size: 1em;
+       font-size: 1.5em;
        margin: 6px 0 1.5em 0;
     }
     
@@ -106,11 +166,11 @@
         font-size: 1em;
     }
     
-    #texto-centralizado {
+    .texto-centralizado {
         display: block;
-        margin: 0px 15px;
+        margin: auto;
         text-align: justify;
-        line-height: 2.1em;
+        line-height: 1.8em;
     }
     
     section.normal {
@@ -122,6 +182,18 @@
         
         background-image: linear-gradient(var(--BODY-1), var(--BODY-2));
         height: 45em;
+        padding: 0px 1em;
+    }
+    
+    section.normal-2 {
+        font-family: 'Montserrat', sans-serif;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        background-image: linear-gradient(var(--BODY-1), var(--BODY-2));
+        height: 20em;
     }
     
     section.imagem {
@@ -132,24 +204,27 @@
         align-items: center;
     
         background-color: var(--BODY);
-        background-attachment: fixed;
+    
         box-shadow: inset 6px 6px 13px var(--SHADOW);
-        height: 45em;
+        height: 38em;
     }
     
     section#img01 {
         background-image: url(imagens/img\ 1.png);
         background-size: cover;
+        background-position: center center;
     }
     
     section#img02 {
         background-image: url(imagens/img\ 2.png);
-        background-size: cover;
+        background-size: 100%;
+        background-position: center center;
     }
     
     section#img03 {
         background-image: url(imagens/img\ 3.jpg);
         background-size: cover;
+        background-position: center center;
     }
     
     footer {
