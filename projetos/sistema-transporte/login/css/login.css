@@ -1,0 +1,136 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+:root {
+    --FONT-LOGIN: #393939de;
+    --FONT:       #ffffff;
+    --SHADOW:     rgba(0, 0, 0, 0.195);
+    --FONT-LOGIN: #393939de;
+    --FONT-ENVIO: #f0f6f6;
+    --BUTTOM: #616161;
+    --SHADOW: rgba(0, 0, 0, 0.195);
+    --SECTION: white;
+    --INPUT-SPACE: #6b6c6c73;
+    --ENVIO: #616161;
+    --ENVIO-HOVER: #7a7777;
+}
+
+/* CONTEÚDO */
+
+main {
+    margin: auto;
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+section#login {
+    display: block;
+    
+    background-color: var(--SECTION);
+    width: 450px;
+    
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px var(--SHADOW);
+}
+
+section#login > div#forms {
+    display: block;
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: var(--FONT);
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 0px 0px 0px 6px;
+    padding: 20px 0px 0px 0px;
+ }
+
+label {
+    display: block;
+    margin: auto;
+    padding-left: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--FONT-LOGIN);
+    padding-top: 10px;  
+}
+
+input#iusu {
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 30px;
+    border: solid 1px var(--INPUT-SPACE);
+    border-radius: 10px;
+    
+    padding-left: 10px;
+}
+
+input#isen {
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 30px;
+    border: solid 1px var(--INPUT-SPACE);
+    border-radius: 10px;
+
+    padding-left: 10px;
+}
+
+input#envio {
+    display: block;
+    margin: auto;
+
+    background-color: var(--ENVIO);
+    color: var(--FONT-ENVIO);
+
+    font-weight: bold;
+    font-size: 1.1em;
+
+    border: none;
+    border-radius: 6px;
+
+    width: 25%;
+    height: 26px;
+    padding: 0px 10px 0px 10px;
+
+    cursor: pointer;
+}
+
+input#envio:hover  {
+    background-color: var(--ENVIO-HOVER);
+}
+
+div#links {
+    display: block;
+    margin: auto;
+    padding: 10px 0px 30px 0px;
+    text-align: center;
+}
+
+div > a {
+    font-weight: bold;
+    color: var(--FONT-LOGIN);
+    text-decoration: none;
+    display: block;
+}
+
+div > a:hover {
+    color: var(--ENVIO-HOVER);
+}
+
+/* CONTEÚDO */
+
+div#imagem {
+    background: var(--HEADER);
+    background-size: cover;
+    height: 70px;
+    border-radius: 10px 10px 0px 0px;
+}

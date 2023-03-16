@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 100px) and (max-width: 768px) {
+    #logo {
+        width: 15%;
+    }
+}

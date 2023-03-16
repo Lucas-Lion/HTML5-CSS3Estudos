@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+main {
+    margin: auto;
+    width: 65vw;
+}
+
+.caixas {
+    background-color: var(--BLOCOS);
+    background-repeat: no-repeat;
+    background-position: 55% 70%;
+    background-size: 130px;
+
+    height:190px;
+    width:290px; 
+   
+    margin: 20px 0px 10px 0px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.438);
+}
+
+.container {
+    margin: 0px 0px 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#caixa-1 {
+    background-image: url(../img/caixas/computador.png);
+}
+
+#caixa-2 {
+    background-image: url(../img/caixas/placa-grafica.png);
+}
+
+#caixa-3 {
+    background-image: url(../img/caixas/cabo-usb.png);
+    background-size: 120px;
+}
+
+#caixa-4 {
+    background-image: url(../img/caixas/roteador-wi-fi.png);
+    background-position: 50% 60%;
+}
+
+#caixa-5 {
+    background-image: url(../img/caixas/teclado-e-mouse.png);
+}
+
+#caixa-6 {
+    background-image: url(../img/caixas/caixa-de-ferramentas.png);
+}
+
+#caixa-7 {
+    background-image: url(../img/caixas/dvd.png);
+    background-position: 50% 80%;
+}
+
+#caixa-8 {
+    background-image: url(../img/caixas/toner.png);
+    background-position: 50% 80%;
+}
+
+#caixa-9 {
+    background-image: url(../img/caixas/application.png);
+}
+
+.shadow:hover {
+    transition: transform 0.5s;
+    transform: translate(-4px, -4px);
+    }
+      
+.legenda {
+    color: var(--FONT);
+    
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.6em;
+      
+    padding: 10px 0px 0px 0px;
+    }

@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+:root {
+    --BODY:       #f0f6f6;
+    --HEADER:     #0a507e;
+    --CAIXA:      #ffffff;
+    --FOOTER:     #0a507e;
+    --FONT:       #ffffff;
+    --BLOCOS:     #045286;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: var(--BODY);
+}
+
+/* HEADER */
+
+header {
+    background-color: var(--HEADER);
+    height: 90px;
+    margin: 0px 0px 20px 0px;
+}
+
+#logo-centralizar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 5px 0px 0px 0px;
+}
+
+.saida {
+    display: flex;
+    justify-content: right;
+
+    position: relative;
+    bottom: 24%;
+    right: 0px;
+}
+
+#exit {
+    background-color: #044571;
+
+    width: 50px;
+    height: 14px;
+
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+#exit:hover {
+    transition-duration: 0.5s;
+    padding: 5px 10px 5px 0px;
+    background-color: #05558b;
+}
+
+/* HEADER */
+
+/* CONTEÚDO */
+
+h1 {
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#subtitulo {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 10px 0px 10px 0px;
+}
+
+/* CONTEÚDO */
+
+/* RODAPÉ */
+
+footer {
+    position: static;
+    bottom: 0;
+    padding: 5px;
+    background-color: var(--FOOTER);
+}
+
+footer > p {
+    text-align: center;
+    color: var(--FONT);
+}
+
+footer > p > a {
+    text-decoration: none;
+    font-size: 1em;
+    color: var(--FONT);
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+}
+
+/* RODAPÉ */
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}

@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 100px) and (max-width:768px) { 
+
+    .logo-code {
+        display: none;
+    }
+
+    header {
+        width: 100vw;
+    }
+
+    #logo-sudesb {
+        width: 300%;
+        position: relative;
+        right: 60%;
+    }
+
+    .pesquisa {
+        display: flex;
+        justify-content: center;
+        margin-right: 20px;
+    }
+
+    input#ipesquisa {
+        width: 60%;
+        height: 40px;
+        border-radius: 5px;
+    }
+
+    table {
+        margin: 0px 60px 0px 60px;
+    }
+
+    .container {
+        overflow-x: auto;
+    }
+
+    footer > p {
+        font-size: 1em;
+    }
+
+    button#dicas {
+        width: 25%;
+    }
+
+    dialog > p {
+        font-size: 0.3em;
+    }
+
+    ::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+}
