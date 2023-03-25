@@ -25,57 +25,80 @@
         <p><strong>Acesse a listagem de emails corporativos da sudesb</strong></p>
     </div>
 
+    <div id="dfPessoas">
+        <form id="formulario" name="fPessoas">
+
+            <p>
+                <label for="iset">Setor</label> <br>
+                <input class="input-width" type="text" name="txtSetor" id="iset" list="lstset">
+                <datalist id="lstset">
+                    <option>ASTEC</option>
+                    <option>EPTP</option>
+                    <option>PROTOCOLO</option>
+                    <option>DIGER</option>
+                    <option>INFORMÁTICA</option>
+                    <option>ASCOM</option>
+                    <option>CEE-I</option>
+                    <option>CEE-II</option>
+                    <option>DFE</option>
+                    <option>TRANSPORTE</option>
+                    <option>DOE</option>
+                    <option>COB</option>
+                    <option>CEEP</option>
+                    <option>CEDE</option>
+                    <option>CEREL</option>
+                    <option>CAPE</option>
+                    <option>COPEL</option>
+                    <option>CRH</option>
+                    <option>CCTL</option>
+                    <option>CFIN</option>
+                    <option>DAF</option>
+                    <option>CAD</option>
+                    <option>COSEG</option>
+                    <option>COMAP</option>
+                    <option>ALMOXARIFADO</option>
+                </datalist>
+            </p>
+
+            <br>
+
+            <p>
+                <label for="txtFunc">Funcionário</label> <br> 
+                <input class="input-width" type="text" name="txtFunc"> <br> <br>
+            </p>
+
+            <p>
+                <label for="txtMail">E-mail</label> <br>
+                <input class="input-width" type="text" name="txtMail"> <br> <br>
+            </p>
+
+            <input id="botao" type="button" value="Adicionar" onclick="cadPessoas(txtSetor.value, txtFunc.value, txtMail.value)">
+        </form>
+    </div>
+
     <div class="pesquisa"> <label for="ipesquisa">Pesquisar:</label>
         <input type="search" name="pesquisa" id="ipesquisa" onkeyup="search_ramal()">
     </div>
 
         <div class="container">
-            <table>
+            <table id="tbPessoas">
                 <thead>
                     <tr>
+                        <th>Código</th>
                         <th>Setor</th>
                         <th>Funcionário</th>
                         <th>E-mail</th>
                     </tr>
                 </thead>
-                <tbody id="tabela">
-                     <tr class="dados" scope="row">
-                        <td>Informática</td>
-                        <td>Igor Aguiar</td>
-                        <td><a class="email" href="mailto:igor.aguiar@sudesb.ba.gov.br">igor.aguiar@sudesb.ba.gov.br</a></td>
-                    </tr>
-                    <tr class="dados" scope="row">
-                        <td>Informática</td>
-                        <td>Bruno Guimarães</td>
-                        <td><a class="email" href="mailto:bruno.guimaraes@sudesb.ba.gov.br">bruno.guimaraes@sudesb.ba.gov.br</a></td>
-                    </tr>
-                    <tr class="dados" scope="row">
-                        <td>Informática</td>
-                        <td>Idelmar de Oliveira</td>
-                        <td><a class="email" href="mailto:idelmar.oliveira@sudesb.ba.gov.br">idelmar.oliveira@sudesb.ba.gov.br</a></td>
-                    </tr>
-                    <tr class="dados" scope="row">
-                        <td>Informática</td>
-                        <td>Victoria Blanco</td>
-                        <td><a class="email" href="mailto:victoria.blanco@sudesb.ba.gov.br">victoria.blanco@sudesb.ba.gov.br</a></td>
-                    </tr>
-                    <tr class="dados" scope="row">
-                        <td>Informática</td>
-                        <td>Lucas Lion</td>
-                        <td><a class="email" href="mailto:lucas.lion@sudesb.ba.gov.br">lucas.lion@sudesb.ba.gov.br</a></td>
-                    </tr>
-                    <tr class="dados" scope="row">
-                        <td>Informática</td>
-                        <td>Pablo Henrique</td>
-                        <td><a class="email" href="mailto:pablo.henrique@sudesb.ba.gov.br">pablo.henrique@sudesb.ba.gov.br</a></td>
-                    </tr> 
+                <tbody class="tabela" id="dtPessoas">
                 </tbody>
             </table>
         </div>
-
     <footer>
         <p class="texto-footer">Desenvolvido por Lucas Lion da T.I da <a target="_blank" href="http://www.sudesb.ba.gov.br">SUDESB</a></p>
     </footer>
+    
+    <script type="text/javascript" src="./js/cadastro.js"></script>
     <script src="js/search.js"></script>
 </body>
 </html>

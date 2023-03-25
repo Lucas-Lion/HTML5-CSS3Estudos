@@ -85,7 +85,7 @@ td, th {
     width: 85%;
     display: flex;
     justify-content: right;
-    margin: 4em 0 0 0;
+    margin: -8% 0 0 0;
 }
 
 #ipesquisa {
@@ -153,6 +153,61 @@ a:hover {
     align-items: center;
     justify-content: center;
     overflow-x: auto;
+    margin-bottom: 10%;
+}
+
+#dfPessoas {
+    background-color: var(--NAV);
+    color: var(--BODY);
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+    width: 20%;
+    border-radius: 20px;
+
+    position: relative;
+    bottom: 150px;
+    left: 6%;
+
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.396);
+    
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#botao {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+    border: none;
+    border-radius: 5px;
+
+    width: 30%;
+    height: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 0 15px 0;
+
+    cursor: pointer;
+}
+
+.input-width {
+    height: 20px;
+}
+
+#botao:hover {
+    background-color: #c1bbbb;
 }
 
 ::-webkit-scrollbar {
