@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/brasao-da-bahia-5.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilo_principal.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <title>E-mails SUDESB</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="http://www.sudesb.ba.gov.br" target="_blank"><img src="img/SUDESB-BRANCO.png" alt="Logo da SUDESB" width="120" id="logo"></a></li>
+            </ul>
+        </nav>
+    </header>
+ 
+
+    <div class="title">
+        <img src="img/outlook.png" alt="logo do outlook" width="50">
+        <h1>E-mails da SUDESB</h1>
+        <p><strong>Acesse a listagem de emails corporativos da sudesb</strong></p>
+    </div>
+
+    <div class="pesquisa"> <label for="ipesquisa">Pesquisar:</label>
+        <input type="search" name="pesquisa" id="ipesquisa" onkeyup="search_ramal()">
+    </div>
+    
+        <div class="container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Setor</th>
+                        <th>Funcionário</th>
+                        <th>E-mail</th>
+                    </tr>
+                </thead>
+                <tbody id="tabela">
+                    <tr class="dados" scope="row">
+                        <td>Informática</td>
+                        <td>Igor Aguiar</td>
+                        <td><a class="email" href="mailto:igor.aguiar@sudesb.ba.gov.br">igor.aguiar@sudesb.ba.gov.br</a></td>
+                    </tr>
+                    <tr class="dados" scope="row">
+                        <td>Informática</td>
+                        <td>Bruno Guimarães</td>
+                        <td><a class="email" href="mailto:bruno.guimaraes@sudesb.ba.gov.br">bruno.guimaraes@sudesb.ba.gov.br</a></td>
+                    </tr>
+                    <tr class="dados" scope="row">
+                        <td>Informática</td>
+                        <td>Idelmar de Oliveira</td>
+                        <td><a class="email" href="mailto:idelmar.oliveira@sudesb.ba.gov.br">idelmar.oliveira@sudesb.ba.gov.br</a></td>
+                    </tr>
+                    <tr class="dados" scope="row">
+                        <td>Informática</td>
+                        <td>Victoria Blanco</td>
+                        <td><a class="email" href="mailto:victoria.blanco@sudesb.ba.gov.br">victoria.blanco@sudesb.ba.gov.br</a></td>
+                    </tr>
+                    <tr class="dados" scope="row">
+                        <td>Informática</td>
+                        <td>Lucas Lion</td>
+                        <td><a class="email" href="mailto:lucas.lion@sudesb.ba.gov.br">lucas.lion@sudesb.ba.gov.br</a></td>
+                    </tr>
+                    <tr class="dados" scope="row">
+                        <td>Informática</td>
+                        <td>Pablo Henrique</td>
+                        <td><a class="email" href="mailto:pablo.henrique@sudesb.ba.gov.br">pablo.henrique@sudesb.ba.gov.br</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    <footer>
+        <p class="texto-footer">Desenvolvido por Lucas Lion da T.I da <a target="_blank" href="http://www.sudesb.ba.gov.br">SUDESB</a></p>
+    </footer>
+    <script src="js/search.js"></script>
+</body>
+</html>

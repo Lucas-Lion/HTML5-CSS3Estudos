@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 100px) and (max-width:768px) { 
+
+    header {
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        background-color: var(--HEADER);
+        height: 2rem;
+    }
+
+    nav {
+        padding: 2px 0;
+        margin: auto;
+        width: 90%;
+        border-radius: 0 0 10px 10px;
+    }
+
+    #logo {
+        width: 100px;
+    }
+
+    .pesquisa {
+        justify-content: left;
+        margin: 3em 0 0 0;
+    }
+
+    #ipesquisa {
+        width: 90%;
+    }
+
+    .title {
+        margin: 15% 0 0 0;
+    } 
+
+    .container {
+        overflow-x: auto;
+    }
+
+    .email {
+        color: black;
+    }
+
+    .email:hover {
+        color: white;
+    }
+
+    ::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+}
