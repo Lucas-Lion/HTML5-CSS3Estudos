@@ -9,3 +9,9 @@ button.onclick = function () {
 buttonClose.onclick = function () {
     modal.close()
 }
+
+modal.addEventListener("click", function(event) {
+    if (event.target === modal) {
+        modal.close();
+    }
+});

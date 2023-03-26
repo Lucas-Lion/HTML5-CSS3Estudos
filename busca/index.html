@@ -24,7 +24,7 @@
             
                         <p>
                             <label for="iset">Setor</label> <br>
-                            <input class="input-width" type="text" name="txtSetor" id="iset" list="lstset">
+                            <input class="input-width" type="text" name="txtSetor" id="iset" list="lstset" required>
                             <datalist id="lstset">
                                 <option>ASTEC</option>
                                 <option>EPTP</option>
@@ -58,15 +58,15 @@
             
                         <p>
                             <label for="func">Funcionário</label> <br> 
-                            <input class="input-width" type="text" name="txtFunc" id="func"> <br> <br>
+                            <input class="input-width" type="text" name="txtFunc" id="func" required> <br> <br>
                         </p>
             
                         <p>
                             <label for="mail">E-mail</label> <br>
-                            <input class="input-width" type="text" name="txtMail" id="mail"> <br> <br>
+                            <input class="input-width" type="text" name="txtMail" id="mail" required> <br> <br>
                         </p>
             
-                        <input id="botao" type="button" value="Adicionar" onclick="cadPessoas(txtSetor.value, txtFunc.value, txtMail.value)">
+                        <input id="botao" type="button" value="Adicionar" onclick="cadastrarPessoa(txtSetor.value, txtFunc.value, txtMail.value); cadPessoas(txtSetor.value, txtFunc.value, txtMail.value)">
                     </form>
                 </div>
                 <div class="popup"><button id="saida">Fechar</button></div>

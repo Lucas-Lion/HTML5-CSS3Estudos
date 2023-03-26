@@ -1,6 +1,12 @@
-function pessoaJaCadastrada(pessoas, nome, email) {
+function cadastrarPessoa(setor, nome, email) {
+  var setor = document.getElementById('iset').value.trim();
+  var nome = document.getElementById('func').value.trim();
+  var email = document.getElementById('mail').value.trim();
+}
+
+function pessoaJaCadastrada(pessoas, email) {
   for (var i = 0; i < pessoas.length; i++) {
-    if (pessoas[i].nome.trim().toLowerCase() === nome.trim().toLowerCase() && pessoas[i].email.trim().toLowerCase() === email.trim().toLowerCase()) {
+    if (pessoas[i].email === email) {
       return true;
     }
   }
@@ -8,6 +14,20 @@ function pessoaJaCadastrada(pessoas, nome, email) {
 }
 
 function cadPessoas(setor, nome, email) {
+
+  // Verifica se os valores são vazios antes de continuar
+  if (setor.trim() === '' || nome.trim() === '' || email.trim() === '') {
+    alert('Por favor, preencha todos os campos.');
+    return;
+  }
+
+  // Verifica se a pessoa já está cadastrada pelo email
+  var pessoas = JSON.parse(localStorage.getItem('pessoas') || '[]');
+  if (pessoaJaCadastrada(pessoas, email)) {
+    alert('Este e-mail já está cadastrado.');
+    return;
+  }
+  
   var tb = document.getElementById('tbPessoas');
   var qtdLinhas = tb.rows.length;
   var linha = tb.insertRow(qtdLinhas);
@@ -20,7 +40,7 @@ function cadPessoas(setor, nome, email) {
   cellCodigo.innerHTML = qtdLinhas;
   cellSetor.innerHTML = setor;
   cellNome.innerHTML = nome;
-  cellEmail.innerHTML = email;
+  cellEmail.innerHTML = '<a href="mailto:' + email + '">' + email + '</a>';
 
   // Adiciona a pessoa cadastrada ao armazenamento local
   var pessoas = JSON.parse(localStorage.getItem('pessoas') || '[]');
@@ -40,3 +60,4 @@ for (var i = 0; i < pessoas.length; i++) {
   var pessoa = pessoas[i];
   cadPessoas(pessoa.setor, pessoa.nome, pessoa.email);
 }
+
