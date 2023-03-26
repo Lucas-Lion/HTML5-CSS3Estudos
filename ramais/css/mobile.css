@@ -2,6 +2,10 @@
 
 @media screen and (min-width: 100px) and (max-width:768px) { 
 
+    h1 {
+        font-size: 1.3em;
+    }
+
     .logo-code {
         display: none;
     }
@@ -11,15 +15,15 @@
     }
 
     #logo-sudesb {
-        width: 300%;
         position: relative;
-        right: 60%;
+        right: 0%;
     }
 
     .pesquisa {
         display: flex;
         justify-content: center;
         margin-right: 20px;
+        margin-bottom: 50px;
     }
 
     input#ipesquisa {
@@ -40,8 +44,19 @@
         font-size: 1em;
     }
 
+    #sudesb-rodape {
+        font-size: 1rem;
+        padding: 0 5rem 0 0;
+    }
+
+    .copy {
+        font-size: 12px;
+    }
+
     button#dicas {
-        width: 25%;
+        width: 28%;
+        top: 105px;
+        left: 18px;
     }
 
     dialog > p {
