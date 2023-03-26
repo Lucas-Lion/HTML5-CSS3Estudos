@@ -22,12 +22,12 @@
     }
 
     .pesquisa {
-        justify-content: left;
+        justify-content: center;
         margin: 3em 0 0 0;
     }
 
     #ipesquisa {
-        width: 90%;
+        width: 50%;
     }
 
     .title {

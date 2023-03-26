@@ -17,75 +17,73 @@
                 <li><a href="http://www.sudesb.ba.gov.br" target="_blank"><img src="img/SUDESB-BRANCO.png" alt="Logo da SUDESB" width="120" id="logo"></a></li>
             </ul>
         </nav>
-        <button id="dicas">Cadastrar E-mail</button >
-            <dialog>
-                <div id="dfPessoas">
-                    <form id="formulario" name="fPessoas">
-            
-                        <p>
-                            <label for="iset">Setor</label> <br>
-                            <input class="input-width" type="text" name="txtSetor" id="iset" list="lstset" required>
-                            <datalist id="lstset">
-                                <option>ASTEC</option>
-                                <option>EPTP</option>
-                                <option>PROTOCOLO</option>
-                                <option>DIGER</option>
-                                <option>INFORMÁTICA</option>
-                                <option>ASCOM</option>
-                                <option>CEE-I</option>
-                                <option>CEE-II</option>
-                                <option>DFE</option>
-                                <option>TRANSPORTE</option>
-                                <option>DOE</option>
-                                <option>COB</option>
-                                <option>CEEP</option>
-                                <option>CEDE</option>
-                                <option>CEREL</option>
-                                <option>CAPE</option>
-                                <option>COPEL</option>
-                                <option>CRH</option>
-                                <option>CCTL</option>
-                                <option>CFIN</option>
-                                <option>DAF</option>
-                                <option>CAD</option>
-                                <option>COSEG</option>
-                                <option>COMAP</option>
-                                <option>ALMOXARIFADO</option>
-                            </datalist>
-                        </p>
-            
-                        <br>
-            
-                        <p>
-                            <label for="func">Funcionário</label> <br> 
-                            <input class="input-width" type="text" name="txtFunc" id="func" required> <br> <br>
-                        </p>
-            
-                        <p>
-                            <label for="mail">E-mail</label> <br>
-                            <input class="input-width" type="text" name="txtMail" id="mail" required> <br> <br>
-                        </p>
-            
-                        <input id="botao" type="button" value="Adicionar" onclick="cadastrarPessoa(txtSetor.value, txtFunc.value, txtMail.value); cadPessoas(txtSetor.value, txtFunc.value, txtMail.value)">
-                    </form>
-                </div>
-                <div class="popup"><button id="saida">Fechar</button></div>
-            </dialog>
+        <button id="dicas">Cadastrar E-mail</button>
+        <dialog>
+            <div id="dfPessoas">
+                <form id="formulario" name="fPessoas">
+                    <p>
+                        <label for="iset">Setor</label> <br>
+                        <input class="input-width" type="text" name="txtSetor" id="iset" list="lstset" required>
+                        <datalist id="lstset">
+                            <option>ASTEC</option>
+                            <option>EPTP</option>
+                            <option>PROTOCOLO</option>
+                            <option>DIGER</option>
+                            <option>INFORMÁTICA</option>
+                            <option>ASCOM</option>
+                            <option>CEE-I</option>
+                            <option>CEE-II</option>
+                            <option>DFE</option>
+                            <option>TRANSPORTE</option>
+                            <option>DOE</option>
+                            <option>COB</option>
+                            <option>CEEP</option>
+                            <option>CEDE</option>
+                            <option>CEREL</option>
+                            <option>CAPE</option>
+                            <option>COPEL</option>
+                            <option>CRH</option>
+                            <option>CCTL</option>
+                            <option>CFIN</option>
+                            <option>DAF</option>
+                            <option>CAD</option>
+                            <option>COSEG</option>
+                            <option>COMAP</option>
+                            <option>ALMOXARIFADO</option>
+                        </datalist>
+                    </p>
+                    
+                    <br>
+
+                    <p>
+                        <label for="func">Funcionário</label> <br> 
+                        <input class="input-width" type="text" name="txtFunc" id="func" required> <br> <br>
+                    </p>
+
+                    <p>
+                        <label for="mail">E-mail</label> <br>
+                        <input class="input-width" type="text" name="txtMail" id="mail" required> <br> <br>
+                    </p>
+
+                    <input id="botao" type="button" value="Adicionar" onclick="cadastrarPessoa(txtSetor.value, txtFunc.value, txtMail.value); cadPessoas(txtSetor.value, txtFunc.value, txtMail.value)">
+                </form>
+            </div>
+
+            <div class="popup"><button id="saida">Fechar</button></div>
+        </dialog>
     </header>
  
-
-    <div class="title">
-        <img src="img/outlook.png" alt="logo do outlook" width="50">
-        <h1>E-mails da SUDESB</h1>
-        <p><strong>Acesse a listagem de emails corporativos da sudesb</strong></p>
-    </div>
-
+    <main>
+        <div class="title">
+            <img src="img/outlook.png" alt="logo do outlook" width="50">
+            <h1>E-mails da SUDESB</h1>
+            <p><strong>Acesse a listagem de emails corporativos da sudesb</strong></p>
+        </div>
+        
+        <div class="pesquisa"> <label for="ipesquisa">Pesquisar:</label>
+            <input type="search" name="pesquisa" id="ipesquisa" onkeyup="search_name()">
+        </div>
     
-
-    <div class="pesquisa"> <label for="ipesquisa">Pesquisar:</label>
-        <input type="search" name="pesquisa" id="ipesquisa" onkeyup="search_ramal()">
-    </div>
-
         <div class="container">
             <table id="tbPessoas">
                 <thead>
@@ -100,12 +98,14 @@
                 </tbody>
             </table>
         </div>
-    <footer>
-        <p class="texto-footer">Desenvolvido por Lucas Lion da T.I da <a target="_blank" href="http://www.sudesb.ba.gov.br">SUDESB</a></p>
-    </footer>
+    </main>
+
+<footer>
+    <p class="texto-footer">Desenvolvido por Lucas Lion da T.I da <a target="_blank" href="http://www.sudesb.ba.gov.br">SUDESB</a></p>
+</footer>
     
-    <script type="text/javascript" src="./js/cadastro.js"></script>
-    <script src="js/search.js"></script>
-    <script src="js/popup.js"></script>
+<script type="text/javascript" src="./js/cadastro.js"></script>
+<script src="js/search.js"></script>
+<script src="js/popup.js"></script>
 </body>
 </html>
