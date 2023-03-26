@@ -15,12 +15,8 @@
 
     .menu-container {
         position: relative;
-        right: 14%;
+        right: 4%;
         bottom: 25px;
-    }
-
-    #menu-caixa {
-        width: 150%;
     }
 
     .ul-sub {
