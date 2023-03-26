@@ -1,6 +1,6 @@
 function cadastrarPessoa(setor, nome, email) {
   var setor = document.getElementById('iset').value.trim();
-  var nome = document.getElementById('func').value.trim();
+  var nome  = document.getElementById('func').value.trim();
   var email = document.getElementById('mail').value.trim();
 }
 
@@ -28,19 +28,19 @@ function cadPessoas(setor, nome, email) {
     return;
   }
   
-  var tb = document.getElementById('tbPessoas');
+  var tb        = document.getElementById('tbPessoas');
   var qtdLinhas = tb.rows.length;
-  var linha = tb.insertRow(qtdLinhas);
+  var linha     = tb.insertRow(qtdLinhas);
 
   var cellCodigo = linha.insertCell(0);
-  var cellSetor = linha.insertCell(1);
-  var cellNome = linha.insertCell(2);
-  var cellEmail = linha.insertCell(3);
+  var cellSetor  = linha.insertCell(1);
+  var cellNome   = linha.insertCell(2);
+  var cellEmail  = linha.insertCell(3);
 
   cellCodigo.innerHTML = qtdLinhas;
-  cellSetor.innerHTML = setor;
-  cellNome.innerHTML = nome;
-  cellEmail.innerHTML = '<a href="mailto:' + email + '">' + email + '</a>';
+  cellSetor.innerHTML  = setor;
+  cellNome.innerHTML   = nome;
+  cellEmail.innerHTML  = '<a href="mailto:' + email + '">' + email + '</a>';
 
   // Adiciona a pessoa cadastrada ao armazenamento local
   var pessoas = JSON.parse(localStorage.getItem('pessoas') || '[]');
