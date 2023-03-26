@@ -54,10 +54,9 @@ ul {
     text-align: center;
     text-decoration: none;
 
-    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.402);
-    border-radius: 4px;
+    border-radius: 5px;
 
-    background-color: var(--BUTTON);
+    background-color: #001b32;
     color: var(--font-white);
 
     display: block;
@@ -65,7 +64,7 @@ ul {
 }
 
 .botao:hover {
-    background-color: #09425e;
+    background-color: #072c3e;
 }
 
 .link-sub-menu  {
@@ -163,7 +162,7 @@ footer {
  
  #sudesb-rodape {
      font-size: 1.2rem;
-     padding: 0 65rem 0 0;
+     padding: 0 60rem 0 0;
  }
  
  .texto-footer {
