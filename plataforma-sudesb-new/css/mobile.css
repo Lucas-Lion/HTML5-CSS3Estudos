@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 100px) and (max-width:668px) {
+
+    #logo {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left: 38%;
+    }
+
+    nav {
+        width: 100vw;
+    }
+
+    .menu-container {
+        position: relative;
+        right: 4%;
+        bottom: 25px;
+    }
+
+    .ul-sub {
+        position: fixed;
+        right: 4%;
+    }
+
+    .botao {
+        padding: 0px 25px;
+        margin: 0px 20px 0px 0px;
+        width: 50%;
+    }
+
+    img#menu-img {
+        position: relative;
+        right: 20%;
+    }
+
+    h1 {
+        margin: 40px 0px 20px 0px;
+        font-size: 1.4em;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 1.4em;
+        text-align: center;
+    }
+
+    .box-container {
+        margin-bottom: 50px;
+    }
+
+    footer > ul > li {
+        font-size: 0.7em;
+    }
+
+    #sudesb-rodape {
+        font-size: 1em;
+        padding: 0 4rem 0 0;
+    }
+
+    ::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+      }
+}
+
+@media screen and (min-width:1745px) {
+
+    main {
+        width: 55%;
+    }
+
+    .menu-container {
+        position: relative;
+        right: 82%;
+        bottom: 60%;
+    }
+
+    footer > ul > li {
+        font-size: 1em;
+    }
+
+    #sudesb-rodape {
+        padding: 0 27rem 0 0;
+    }
+} 
+
+@media screen and (min-width: 668px) and (max-width:1400px) {
+
+    .menu-container {
+        position: relative;
+        right: 76%;
+    }
+
+    footer > ul > li {
+        font-size: 1em;
+    }
+
+    #sudesb-rodape {
+        padding: 0 34rem 0 0;
+    }
+}
