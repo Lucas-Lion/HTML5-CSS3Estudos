@@ -238,8 +238,10 @@ table.dados a[href^="mailto:"] {
 }
 
 .input-width {
-    height: 20px;
+    padding: 0 0 0 5px;
+    height: 25px;
     width: 190%;
+    border-radius: 5px;
 }
 
 #botao:hover {
