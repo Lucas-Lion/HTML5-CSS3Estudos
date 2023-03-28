@@ -30,12 +30,13 @@ dialog {
     border: none;
     border-radius: 3px;
     
-    width: 10%;
+    width: 13%;
     height: 35px;
     margin: 0px 0px 0px 10px;
 
     position: relative;
-    bottom: 45px;
+    bottom: 24px;
+    left: 40px;
     cursor: pointer;
 }
 
