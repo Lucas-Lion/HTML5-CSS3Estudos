@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.teste {
+    background-color: #042940;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 4rem;
+}
+
+.itens {
+    display: block;
+}
+
+#dicas {
+    cursor: pointer;
+}
+
+#label-pesquisa {
+    color: white;
+}
