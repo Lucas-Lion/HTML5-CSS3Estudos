@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 100px) and (max-width:768px) { 
+
+    h1 {
+        font-size: 1.3em;
+    }
+
+    .logo-code {
+        display: none;
+    }
+
+    header {
+        width: 100vw;
+    }
+
+    #logo-sudesb {
+        position: relative;
+        right: 0%;
+    }
+
+    .pesquisa {
+        display: flex;
+        justify-content: center;
+        margin-right: 20px;
+        margin-bottom: 50px;
+    }
+
+    input#ipesquisa {
+        width: 60%;
+        height: 40px;
+        border-radius: 5px;
+    }
+
+    table {
+        margin: 0px 60px 60px 60px;
+    }
+
+    .container {
+        overflow-x: auto;
+    }
+
+    footer > p {
+        font-size: 1em;
+    }
+
+    #sudesb-rodape {
+        font-size: 1rem;
+        padding: 0 5rem 0 0;
+    }
+
+    .copy {
+        font-size: 12px;
+    }
+
+    button#dicas {
+        width: 28%;
+        top: 105px;
+        left: 18px;
+    }
+
+    dialog > p {
+        font-size: 0.3em;
+    }
+
+    ::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+}
+
+@media screen and (min-width:1745px) {
+    
+    button#dicas {
+        left: 180px;
+    }
+
+    .pesquisa {
+        position: relative;
+        right: 30px;
+    }
+
+    #sudesb-rodape {
+        font-size: 1rem;
+        padding: 0 70rem 0 0;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width:1480px) {
+
+    button#dicas {
+        left: 96px;
+        width: 150px;
+    }
+
+    .pesquisa {
+        position: relative;
+        left: 55px;
+    }
+
+    #legenda-qr {
+        font-size: 1em;
+    }
+
+    #sudesb-rodape {
+        padding: 0 20rem 0 0;
+    }
+}
