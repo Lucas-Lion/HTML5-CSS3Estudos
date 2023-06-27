@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,7 @@
     <script src="js/script.js"></script>
     <title>Sistema de Inventário</title>
 </head>
+
 <body>
     <header>
         <nav>
@@ -27,7 +29,7 @@
     </header> <br>
     <main>
         <h1>Inventário da Informática</h1>
-        <p id="subtitulo">Bem vindos(as) ao sistema de inventário da informática!</p>
+        <p id="subtitulo">Bem vindo(a) ao sistema de inventário da informática!</p>
         <hr>
 
         <div class="container">
@@ -54,7 +56,7 @@
                     </div>
                 </div>
             </a>
-            
+
             <a class="link-shadow" href="paginas/switch.html" target="_self">
                 <div class="shadow">
                     <div id="caixa-4" class="caixas">
@@ -94,7 +96,7 @@
                     </div>
                 </div>
             </a>
-            
+
             <a class="link-shadow" href="paginas/outros.html" target="_self">
                 <div class="shadow">
                     <div id="caixa-9" class="caixas">
@@ -105,7 +107,13 @@
         </div>
     </main>
     <footer>
-        <p>Desenvolvido pela equipe de tecnologia da <a href="http://www.sudesb.ba.gov.br" target="_blank"><strong>SUDESB</strong></a></p>
+        <ul id="rodape">
+            <li id="sudesb-rodape"><strong><a href="http://www.sudesb.ba.gov.br" target="_blank">SUDESB</a></strong>
+            </li>
+            <li>Desenvolvido por Lucas Lion - Equipe de Informática</li>
+            <li>&copy; Copyright 2023</li>
+        </ul>
     </footer>
 </body>
+
 </html>

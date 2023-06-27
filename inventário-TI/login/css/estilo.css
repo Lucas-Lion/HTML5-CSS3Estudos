@@ -53,25 +53,47 @@ nav {
 
 footer {
     position: fixed;
-    bottom: 0;
+    bottom: 0; 
+    background-image: linear-gradient(#003D73, #012748); 
+    color: var(--BODY);
+ 
+    display: flex;
+    align-items: center;
     width: 100vw;
-    padding: 5px;
-    background-image: linear-gradient(#003D73, #012748);
-}
+    height: 44px;
+ }
+ 
+ #rodape {
+     font-family: 'Montserrat', sans-serif;
+     display: flex;
+     flex-direction: row;
+     justify-content: left;
+     gap: 2rem;
+     padding: 0 10px;
+ }
+ 
+ #sudesb-rodape {
+     font-size: 1.2rem;
+     padding: 0 50rem 0 0;
+ }
+ 
+ .texto-footer {
+     padding-top: 5px;
+ }
 
-footer > p {
-    text-align: center;
-    color: var(--FONT);
-}
-
-footer > p > a {
+footer > ul > li > strong > a {
+    color: var(--BODY);
+    font-weight: bold;
     text-decoration: none;
-    font-size: 1em;
-    color: var(--FONT);
 }
 
-footer > p > a:hover {
+footer > ul > li > strong > a:hover {
+    color: #b6b4b4;
     text-decoration: underline;
+}
+
+ul {
+    list-style: none;
 }
 
 /* RODAPÉ */
