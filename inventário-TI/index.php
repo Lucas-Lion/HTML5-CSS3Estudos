@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,8 +19,9 @@
 
     <title>Login</title>
 </head>
+
 <body>
-    <header> 
+    <header>
         <nav>
             <div id="logo-centralizar">
                 <a href="http://www.sudesb.ba.gov.br" target="_blank">
@@ -46,22 +48,24 @@
                         ?>
                     </div>
                 </div> <br>
-                
+
                 <div id="forms">
-                        <form action="conexao.php" method="POST" autocomplete="off">
+                    <form action="conexao.php" method="POST" autocomplete="off">
                         <p>
                             <label for="iusu">Usuário</label> <br>
-                            <input type="text" name="usuario" id="iusu" required minlength="1" size="10" placeholder="Digite seu usuário..." autocomplete="username">
+                            <input type="text" name="usuario" id="iusu" required minlength="1" size="10"
+                                placeholder="Digite seu usuário..." autocomplete="username">
                         </p>
                         <br>
                         <p>
                             <label for="isen">Senha</label> <br>
-                            <input type="password" name="senha" id="isen" required minlength="1" placeholder="Digite sua senha..." autocomplete="current-password">
+                            <input type="password" name="senha" id="isen" required minlength="1"
+                                placeholder="Digite sua senha..." autocomplete="current-password">
                         </p>
                         <br> <br>
                         <p>
                             <input id="envio" type="submit" value="Entrar">
-                        </form>
+                    </form>
                 </div> <br>
                 <div id="links">
                     <p style="color: var(--ENVIO-HOVER);">&copy; Copyright 2023</p>
@@ -69,13 +73,15 @@
             </section>
         </div>
     </main>
-    
+
     <footer>
         <ul id="rodape">
-            <li id="sudesb-rodape"><strong><a href="http://www.sudesb.ba.gov.br" target="_blank">SUDESB</a></strong></li>
+            <li id="sudesb-rodape"><strong><a href="http://www.sudesb.ba.gov.br" target="_blank">SUDESB</a></strong>
+            </li>
             <li>Desenvolvido por Lucas Lion - Equipe de Informática</li>
             <li>&copy; Copyright 2023</li>
         </ul>
     </footer>
 </body>
+
 </html>

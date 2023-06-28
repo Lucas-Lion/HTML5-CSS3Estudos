@@ -1,5 +1,17 @@
+<?php 
+
+session_start();
+
+if (!isset($_SESSION['authenticated'])) {
+   
+    header("Location: ../index.php");
+    exit();
+}
+
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,9 +23,11 @@
     <script src="js/script.js"></script>
     <title>Switchs</title>
 </head>
+
 <body>
     <header>
-        <div id="logo-centralizar"><a href="http://www.sudesb.ba.gov.br" target="_blank"><img src="template/img/SUDESB-BRANCO.png" width="160px" alt="logo da SUDESB"></a></div>
+        <div id="logo-centralizar"><a href="http://www.sudesb.ba.gov.br" target="_blank"><img
+                    src="template/img/SUDESB-BRANCO.png" width="160px" alt="logo da SUDESB"></a></div>
     </header>
     <div class="container-0">
         <img id="logo" src="../img/caixas/roteador-wi-fi.png" alt="roteador wi-fi" />
@@ -21,23 +35,44 @@
     <h1>Switchs e Roteadores</h1>
     <hr>
     <main>
-        <div id="return"><a href="../sistema.php"><img id="logo-retorno" src="template/img/back.png" width="500%" alt="icone de retorno"></a></div>
+        <div id="return"><a href="../sistema.php"><img id="logo-retorno" src="template/img/back.png" width="500%"
+                    alt="icone de retorno"></a></div>
         <div class="container-1">
-          <div class="box"><div class="box-1"></div></div>
-          <div class="box"><div class="box-1"></div></div>
-          <div class="box"><div class="box-1"></div></div>
-  
-          <div class="box"><div class="box-1"></div></div>
-          <div class="box"><div class="box-1"></div></div>
-          <div class="box"><div class="box-1"></div></div>
-     
-          <div class="box"><div class="box-1"></div></div>
-          <div class="box"><div class="box-1"></div></div>
-          <div class="box"><div class="box-1"></div></div>
+            <div class="box">
+                <div class="box-1"></div>
+            </div>
+            <div class="box">
+                <div class="box-1"></div>
+            </div>
+            <div class="box">
+                <div class="box-1"></div>
+            </div>
+
+            <div class="box">
+                <div class="box-1"></div>
+            </div>
+            <div class="box">
+                <div class="box-1"></div>
+            </div>
+            <div class="box">
+                <div class="box-1"></div>
+            </div>
+
+            <div class="box">
+                <div class="box-1"></div>
+            </div>
+            <div class="box">
+                <div class="box-1"></div>
+            </div>
+            <div class="box">
+                <div class="box-1"></div>
+            </div>
         </div>
-      </main>
+    </main>
     <footer>
-        <p>Desenvolvido pela equipe de tecnologia da <a href="http://www.sudesb.ba.gov.br" target="_blank"><strong>SUDESB</strong></a></p>
+        <p>Desenvolvido pela equipe de tecnologia da <a href="http://www.sudesb.ba.gov.br"
+                target="_blank"><strong>SUDESB</strong></a></p>
     </footer>
 </body>
+
 </html>
