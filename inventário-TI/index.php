@@ -40,6 +40,7 @@
                     <div class="error-message">
                         <?php
                         session_start();
+                        $_SESSION['authenticated'] = 'desconectado';
                         if (isset($_SESSION['login_error'])) {
                         $errorMessage = $_SESSION['login_error'];
                         echo '<p class="error-message">' . $errorMessage . '</p>';

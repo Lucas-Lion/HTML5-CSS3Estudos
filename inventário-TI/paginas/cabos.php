@@ -2,7 +2,7 @@
 
 session_start();
 
-if (!isset($_SESSION['authenticated'])) {
+if ($_SESSION['authenticated']=='desconectado') {
    
     header("Location: ../index.php");
     exit();

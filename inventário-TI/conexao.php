@@ -1,5 +1,6 @@
 <?php
 session_start();
+$_SESSION['authenticated'] = 'conectado';
 $username = $_POST["usuario"];
 $password = $_POST["senha"];
 
