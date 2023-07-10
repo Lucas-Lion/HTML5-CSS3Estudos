@@ -1,0 +1,38 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+
+:root {
+    --BODY-DEGRADE-1: #03588C;
+    --BODY-DEGRADE-2: #173F7F;
+    --CADASTRO:       #dad9d9;
+    --BUTTON:         #dc4a4a;
+    --BORDER:         #8a8a8ad2;
+    --BUTTON-HOVER:   #a43232;
+    --FONT-COLOR:     #1a1a1a;
+    --FONT-BUTTON:    #fafafa;
+    --FONT: 'Josefin Sans', sans-serif;
+}
+
+fieldset {
+    margin-bottom: 2em;
+}
+
+.container {
+    margin-top: 2em;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.legenda {
+    padding: 4px;
+    height: 60px;
+}
+
+button {
+    height: 60px;
+    width: 20%;
+}
