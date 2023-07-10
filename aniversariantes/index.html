@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ESTILO PESSOAL -->
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="shortcut icon" href="pictures/brasao-da-bahia-5.ico" type="image/x-icon">
+    <title>Aniversariantes SUDESB</title>
+</head>
+<body onload="criarCardsAniversariantes()"> 
+    <br> <br>
+    <div class="imagem-sudesb" style="text-align: center;">
+        <img src="pictures/sudesb-logo.png" width="300" alt="SUDESB-LOGO">
+    </div> <br> <br>
+    <div class="title">
+        <h1 style="text-align: center;"></h1>
+    </div> <br><br>
+
+    <div class="container">
+        <div class="row" id="aniversariantes">
+            
+        </div>
+    </div>   
+
+    <script src="scripts/script.js"></script>
+    <script>
+
+        // Criar cards
+        function criarCardsAniversariantes() {
+            var aniversariantesContainer = document.getElementById("aniversariantes");
+    
+            // Limpar o conteúdo atual
+            aniversariantesContainer.innerHTML = "";
+    
+            // Percorrer o array de funcionários e cria um card para cada um
+            for (var i = 0; i < funcionarios.length; i++) {
+                var funcionario = funcionarios[i];
+    
+                // Cria os elementos HTML do card
+                var card = document.createElement("div");
+                card.className = "col-md-4";
+                card.innerHTML = `
+                    <div class="card">
+                        <div class="img1"><img src="pictures/igor2.jpg" alt="bird"></div>
+                        <div class="img2"><img src="pictures/igor.jpg" alt="bird"></div>
+                        <div class="main-text">
+                            <h2>${funcionario.nome} ${funcionario.sobrenome}</h2>
+                            <p>${funcionario.setor}</p> <br>
+                            <strong>
+                                <p class="border-date">${funcionario.dataAniversario}</p>
+                            </strong>
+                        </div>
+                    </div>
+                `;
+    
+                // Adiciona o card ao container de aniversariantes
+                aniversariantesContainer.appendChild(card);
+            }
+        }
+    
+        // Chama a função para criar os cards dos aniversariantes
+        criarCardsAniversariantes();
+
+    </script>
+    <script src="scripts/mes.js"></script>
+</body>
+</html>
