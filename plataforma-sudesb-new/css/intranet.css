@@ -1,7 +1,16 @@
 @charset "UTF-8";
 
-.teste {
-    width: 65%;
+body {
+    background-color: #F0F6F6;
+}
+
+.card-teste {
+    text-decoration: none;
+}
+
+.card-teste:hover {
+    transition: transform 0.5s;
+    transform: translate(-4px, -4px);
 }
 
 .nav-color {
