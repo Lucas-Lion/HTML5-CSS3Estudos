@@ -11,3 +11,5 @@ Vejam alguns dos meus projetos!
 <a href="https://lucas-lion.github.io/Estudos-DEV/intranet-sudesb/index.html">Plataforma SUDESB</a> <br>
 <a href="https://lucas-lion.github.io/Estudos-DEV/PROJETOS SUDESB prototipos/PROJECTS/INVENTÁRIO TI/index.html">Sistema de Inventário da TI SUDESB</a> <br>
 <a href="https://lucas-lion.github.io/Estudos-DEV/nana/index.html">Website NANA Salão de Beleza & Bem Estar</a> <br>
+<a href="https://lucas-lion.github.io/Estudos-DEV/plataforma-sudesb-new/index.html">Novo Intranet</a> <br>
+
