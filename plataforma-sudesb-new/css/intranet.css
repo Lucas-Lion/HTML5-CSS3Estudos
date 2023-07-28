@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+.teste {
+    width: 65%;
+}
+
+.nav-color {
+    background-color: #073055;
+}
+
+.nav-link {
+    color: #F8F9FA;
+}
+
+.nav-link:hover {
+    color: #c6c7c9;
+}
+
+.categoria {
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h5 {
+    font-size: 1.7em;
+}
+
+.card-color {
+    background-color: #0E4270;
+}
+
+.btn-danger, .btn-dark {
+    background-color: #C3C3C3;
+    color: black;
+    font-weight: 500;
+    border: none;
+    width: 50%;
+    font-size: 1.2em;
+}
+
+.btn-danger:hover {
+    background-color: #0a374d;
+}
+
+.footer-color {
+    background-color: #0E4270;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
