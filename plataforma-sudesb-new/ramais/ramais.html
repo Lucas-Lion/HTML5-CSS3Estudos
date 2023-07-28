@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/brasao-da-bahia-5.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!-- ESTILO PRÓPRIO -->
+    <link rel="stylesheet" href="css/ramais.css">
+    <link rel="stylesheet" href="css/popup.css">
+    <title>Ramais</title>
+</head>
+<body class="bg-light">
+    <!-- TOPO -->
+    <header class="mb-5 pb-2 pt-2">
+            <nav class="w-50 pb-2 pt-2 m-auto">
+                <div class="container d-flex justify-content-center align-items-center">
+                    <a href="#">
+                        <img src="img/SUDESB-BRANCO.png" width="150">
+                    </a>
+                </div>
+            </nav>
+    </header>
+
+    <!-- LEGENDA -->
+    <div class="container text-center text-dark mb-5">
+        <h1>
+            Listagem de Ramais da SUDESB
+        </h1>
+        <p class="subtitle">
+            Seja vem vindo(a) a lista de ramais da SUDESB
+        </p>
+    </div>
+
+    <!-- PESQUISA E DICAS -->
+    <main class="container-fluid pe-5 ps-5">
+        
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="input-group mb-3">
+                <button type="button" class="btn btn- btn-primary rounded-0">
+                    Dicas Telefônicas <i class="bi bi-lightbulb "></i>
+                </button>
+
+                <dialog>
+                    <p class="popup"> <strong>Transferir Ligação</strong> <br> Flash + Ramal </p> <br>
+                    <p class="popup"> <strong>Puxar Ligação</strong>      <br> 16 + Ramal    </p> <br>
+                    <p class="popup"> <strong>Ligação Externa</strong>    <br> 2 + Telefone     </p> <br>
+                    <div class="popup"><button id="saida">Fechar</button></div>
+                </dialog>
+            </div>
+    
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                   <label for="ipesquisa">
+                       <span class="input-group-text rounded-0 span-color text-light" id="basic-addon1">
+                            <i class="bi bi-search me-2"></i> Pesquisar
+                        </span>
+                   </label>
+                </div>
+                <input type="search" class="form-control" id="ipesquisa" onkeyup="search_ramal()">
+            </div>
+
+        </div>
+    </main>
+
+    <!-- TABELA -->
+    <div class="container-fluid pe-5 ps-5 pt-4">
+        <table class="table table-striped table-hover margin-table">
+            <thead class="text-center">
+              <tr>
+                <th scope="col" class="text-light" style="background-color: #082C4D;">Setor</th>
+                <th scope="col" class="text-light" style="background-color: #082C4D;">Ramal</th>
+                <th scope="col" class="text-light" style="background-color: #082C4D;">Nomes</th>
+                <th scope="col" class="text-light" style="background-color: #082C4D;">Telefone</th>
+              </tr>
+            </thead>
+            <tbody class="text-center">
+                <tr class="dados" scope="row">
+                    <td>Recepção</td>
+                    <td>0500</td>
+                    <td>Marlene | Gladys</td>
+                    <td><a class="telefones" href="tel:3198-0500">3198-0500</a></td>
+                </tr>
+                <tr class="dados" scope="row">
+                    <td>Protocolo</td>
+                    <td>0547</td>
+                    <td>Mari | Geovana</td>
+                    <td><a class="telefones" href="tel:3198-0547">3198-0547</a></td>
+                </tr>
+                <tr class="dados" scope="row">
+                    <td>DIGER - Secretária</td>
+                    <td>0503</td>
+                    <td>Rose</td>
+                    <td><a class="telefones" href="tel:3198-0503">3198-0503</a></td>
+                </tr>
+                <tr class="dados" scope="row">
+                    <td>DIGER - Secretária</td>
+                    <td>0558</td>
+                    <td>Patrícia</td>
+                    <td><a class="telefones" href="tel:3198-0558">3198-0558</a></td>
+                </tr>
+                <tr class="dados" scope="row">
+                    <td>DIGER - Secretária</td>
+                    <td>0505</td>
+                    <td>Clécia</td>
+                    <td><a class="telefones" href="tel:3198-0505">3198-0505</a></td>
+                </tr>
+                <tr class="dados" scope="row">
+                    <td>DIGER - Expediente I</td>
+                    <td>0545</td>
+                    <td>Bernadete | Magali</td>
+                    <td><a class="telefones" href="tel:3198-0545">3198-0545</a></td>
+                </tr>
+                <tr class="dados" scope="row">
+                    <td>DIGER - Expediente II</td>
+                    <td>0546</td>
+                    <td>Gabriela | Verônica</td>
+                    <td><a class="telefones" href="tel:3198-0546">3198-0546</a></td>
+                </tr>
+                <tr class="dados" scope="row">
+                    <td>ASCOM</td>
+                    <td>0539 \ 0559</td>
+                    <td>Hilda | Jéssica | Marcos | Bruno | Neuza</td>
+                    <td><a class="telefones" href="tel:3198-0539">3198-0539</a> \ <a class="telefones" href="tel:3198-0559"> 3198-0559</a></td>
+                </tr>
+                <tr class="dados" scope="row">
+                    <td>ASTEC I</td>
+                    <td>0548</td>
+                    <td>Susi | Najla | Yara</td>
+                    <td><a class="telefones" href="tel:3198-0548">3198-0548</a></td>
+                </tr>
+                <tr class="dados" scope="row">
+                    <td>ASTEC II</td>
+                    <td>0549</td>
+                    <td>Selma | Sueli | Milena | Diogo</td>
+                    <td><a class="telefones" href="tel:3198-0549">3198-0549</a></td>
+                </tr>
+                <tr class="dados" scope="row">
+                    <td>ASTEC III</td>
+                    <td>0551</td>
+                    <td>Mariza | Cicília | Aline | Samira</td>
+                    <td><a class="telefones" href="tel:3198-0551">3198-0551</a></td>
+                </tr>
+                <tr class="dados" scope="row">
+                    <td>ASTEC IV</td>
+                    <td>0557</td>
+                    <td>Ana | Amelia | Iago | Ney | Sidnei | Marcela</td>
+                    <td><a class="telefones" href="tel:3198-0557">3198-0557</a></td>
+                </tr>
+                <tr class="dados" scope="row">
+                    <td>DAF - Diretoria</td>
+                    <td>0502</td>
+                    <td>Edvaldo Carvalho</td>
+                    <td><a class="telefones" href="tel:3198-0502">3198-0502</a></td>
+                </tr>
+                <tr class="dados" scope="row">
+                    <td>DAF</td>
+                    <td>0501</td>
+                    <td>Káthia</td>
+                    <td><a class="telefones" href="tel:3198-0501">3198-0501</a></td>
+                </tr>
+                <tr class="dados" scope="row">
+                    <td>Almoxarifado</td>
+                    <td>0523</td>
+                    <td>Jorge | Gileno | Rhuan</td>
+                    <td><a class="telefones" href="tel:3198-0523">3198-0523</a></td>
+                </tr>
+                <tr class="dados" scope="row">
+                    <td>CAD</td>
+                    <td>0524</td>
+                    <td>Patrícia | Edneide</td>
+                    <td><a class="telefones" href="tel:3198-0524">3198-0524</a></td>
+                </tr>
+                <tr class="dados">
+                    <td>CCTL</td>
+                    <td>0526</td>
+                    <td>Ivanildes | Marília | Larissa | Rosa | Adalgisa | Ilma | Rita</td>
+                    <td><a class="telefones" href="tel:3198-0526">3198-0526</a></td>
+                </tr>
+                <tr class="dados" scope="row">
+                    <td>CFIN</td>
+                    <td>0525</td>
+                    <td>Alberto</td>
+                    <td><a class="telefones" href="tel:3198-0525">3198-0525</a></td>
+                </tr>
+                <tr class="dados" scope="row">
+                    <td>CFIN - Funcionários</td>
+                    <td>0555</td>
+                    <td>Marcia | Nice | Jorge | Mercês | Carlos | Milena | Beatriz</td>
+                    <td><a class="telefones" href="tel:3198-0555">3198-0555</a></td>
+                </tr>
+                <tr class="dados" scope="row">
+                    <td>COMAP</td>
+                    <td>0522</td>
+                    <td>Morgana | Claudia | Bianca | Cláudia | Alessandro | Antônio</td>
+                    <td><a class="telefones" href="tel:3198-0522">3198-0522</a></td>
+                </tr>
+                <tr class="dados" scope="row">
+                    <td>Copa cantina 07</td>
+                    <td>0528</td>
+                    <td>Valdiva</td>
+                    <td><a class="telefones" href="tel:3198-0528">3198-0528</a></td>
+                </tr>
+                <tr class="dados" scope="row">
+                    <td>Copa Tribuna</td>
+                    <td>0540</td>
+                    <td>Domingas | Heloísa</td>
+                    <td><a class="telefones" href="tel:3198-0540">3198-0540</a></td>
+                </tr>
+                <tr class="dados" scope="row">
+                    <td>COPEL</td>
+                    <td>0529</td>
+                    <td>Osvan | Sueli | Marleide | João</td>
+                    <td><a class="telefones" href="tel:3198-0529">3198-0529</a></td>
+                </tr>
+                <tr class="dados" scope="row">
+                    <td>CRH</td>
+                    <td>0527</td>
+                    <td>Alexandro | Norma | Genice</td>
+                    <td><a class="telefones" href="tel:3198-0527">3198-0527</a></td>
+                </tr>
+                <tr class="dados" scope="row">
+                    <td>COSEG - Coordenação</td>
+                    <td>0520</td>
+                    <td>Liz</td>
+                    <td><a class="telefones" href="tel:3198-0520">3198-0520</a></td>
+                </tr>
+                <tr class="dados" scope="row">
+                    <td>COSEG - Funcionários</td>
+                    <td>0521</td>
+                    <td>Paulo | Grisi | Adriano | Giovane | Lucas | Messias</td>
+                    <td><a class="telefones" href="tel:3198-0521">3198-0521</a></td>
+                </tr>
+                <tr class="dados" scope="row">
+                    <td>Informática</td>
+                    <td>0550 \ 0562</td>
+                    <td>Bruno Guimarães | Igor | Idelmar | Lucas | Pablo</td>
+                    <td><a class="telefones" href="tel:3198-0550">3198-0550</a> \ <a class="telefones" href="tel:3198-0562"> 3198-0562</a></td>
+                </tr>
+                <tr class="dados" scope="row">
+                    <td>Limpeza</td>
+                    <td>0536</td>
+                    <td>Milena | Funcionários</td>
+                    <td><a class="telefones" href="tel:3198-0536">3198-0536</a></td>
+                </tr>
+                <tr class="dados" scope="row">
+                    <td>Transporte</td>
+                    <td>0533</td>
+                    <td>Silvio | Paulo | Motoristas</td>
+                    <td><a class="telefones" href="tel:3198-0533">3198-0533</a></td>
+                </tr>
+                <tr class="dados" scope="row">
+                    <td>DFE - Diretoria</td>
+                    <td>0535</td>
+                    <td>Wilton Brandão</td>
+                    <td><a class="telefones" href="tel:3198-0535">3198-0535</a></td>
+                </tr>
+                <tr class="dados" scope="row">
+                    <td>DFE</td>
+                    <td>0534</td>
+                    <td>Janice | Ilka</td>
+                    <td><a class="telefones" href="tel:3198-0534">3198-0534</a></td>
+                </tr>
+                <tr class="dados" scope="row">
+                    <td>CAPE</td>
+                    <td>0531</td>
+                    <td>Maurício | Rogério | Angela | Orlando</td>
+                    <td><a class="telefones" href="tel:3198-0531">3198-0531</a></td>
+                </tr>
+                <tr class="dados" scope="row">
+                    <td>CEDE - Professores</td>
+                    <td>0532</td>
+                    <td>Alvaro | Angela | Alex | Paulão | Graça</td>
+                    <td><a class="telefones" href="tel:3198-0532">3198-0532</a></td>
+                </tr>
+                <tr class="dados" scope="row">
+                    <td>CEREL</td>
+                    <td>0566</td>
+                    <td>Giselle | Rosana | Rodrigo | Cesar | Ticão</td>
+                    <td><a class="telefones" href="tel:3198-0530">3198-0530</a></td>
+                </tr>
+                <tr class="dados" scope="row">
+                    <td>DOEE - Diretoria</td>
+                    <td>0507</td>
+                    <td>Danilo Xavier</td>
+                    <td><a class="telefones" href="tel:3198-0507">3198-0507</a></td>
+                </tr>
+                <tr class="dados" scope="row">
+                    <td>DOEE - Assessoria</td>
+                    <td>0542</td>
+                    <td>Renata | Fátima | Joyce | Rosa | Robson</td>
+                    <td><a class="telefones" href="tel:3198-0542">3198-0542</a></td>
+                </tr>
+                <tr class="dados" scope="row">
+                    <td>DOEE - Contratos</td>
+                    <td>0564</td>
+                    <td>Débora</td>
+                    <td><a class="telefones" href="tel:3198-0564">3198-0564</a></td>
+                </tr>
+                <tr class="dados" scope="row">
+                    <td>DOEE - Recepção</td>
+                    <td>0552</td>
+                    <td>Rose</td>
+                    <td><a class="telefones" href="tel:3198-0552">3198-0552</a></td>
+                </tr>
+                <tr class="dados" scope="row">
+                    <td>COB - Secretária</td>
+                    <td>0561</td>
+                    <td>Sivalda | Luiz Brantes</td>
+                    <td><a class="telefones" href="tel:3198-0561">3198-0561</a></td>
+                </tr>
+                <tr class="dados" scope="row">
+                    <td>COB - Técnicos</td>
+                    <td>0543</td>
+                    <td>Afrânio</td>
+                    <td><a class="telefones" href="tel:3198-0543">3198-0543</a></td>
+                </tr>
+                <tr class="dados" scope="row">
+                    <td>COB - Técnicos</td>
+                    <td>0541</td>
+                    <td>Cláudio | Manuel | Carlos | Nelson</td>
+                    <td><a class="telefones" href="tel:3198-0541">3198-0541</a></td>
+                </tr>
+                <tr class="dados" scope="row">
+                    <td>COB - Engenharia e Arquitetura</td>
+                    <td>0565</td>
+                    <td>Christopher | Juliana | Mariluce | Taruza | Mariana | Thalyta | Vinicius | Aianna | Edipo | Patricia | Silvana | Silvana | Fernando | Jaqueline | Maria</td>
+                    <td><a class="telefones" href="tel:3198-0565">3198-0565</a></td>
+                </tr>
+                <tr class="dados" scope="row">
+                    <td>DOEE | CEE-I - Coordenação </td>
+                    <td>0537</td>
+                    <td>Hélio | Júnior</td>
+                    <td><a class="telefones" href="tel:3198-0537">3198-0537</a></td>
+                </tr>
+                <tr class="dados" scope="row">
+                    <td>DOEE | CEE-I - Operações</td>
+                    <td>0538</td>
+                    <td>Reneval | Jorge | Fernando</td>
+                    <td><a class="telefones" href="tel:3198-0538">3198-0538</a></td>
+                </tr>
+                <tr class="dados" scope="row">
+                    <td>Excelência - Diretoria</td>
+                    <td>0554</td>
+                    <td>Sinval Vieira</td>
+                    <td><a class="telefones" href="tel:3198-0554">3198-0554</a></td>
+                </tr>
+                <tr class="dados" scope="row">
+                    <td>Excelência</td>
+                    <td>0553</td>
+                    <td>Antonia | Thaís | Fernando | Conceição | Gerson</td>
+                    <td><a class="telefones" href="tel:3198-0553">3198-0553</a></td>
+                </tr>
+            </tbody>
+          </table>
+    </div>
+
+
+    <!-- RODAPÉ -->
+    <div class="container-fluid text-light footer-color p-2 position-fixed bottom-0">
+        <footer class="modal-footer d-flex justify-content-between align-items-center pe-3 ps-3">
+            <a href="https://www.bahia.ba.gov.br/" target="_blank"><img src="img/Governo-da-Bahia-white.png" width="130" alt="Governo do Estado"></a>
+            <p>Desenvolvido por Lucas Lion - Equipe de Informática</p>
+            <p>&copy; Copyright 2023</p>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/popup.js"></script>
+</body>
+</html>
