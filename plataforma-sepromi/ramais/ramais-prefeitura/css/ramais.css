@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+.pesquisa {
+    width: 30%;
+}
+
+#ipesquisa {
+    border-radius: 0 5px 5px 0;
+}
+
+.subtitle {
+    font-size: 1.5em;
+}
+
+header {
+    background-image: linear-gradient(#797055, #645c44);
+    margin: auto;
+    width: 95%;
+    border-radius: 0 0 15px 15px;
+}
+
+table {
+    font-weight: 500;
+}
+
+thead {
+    font-size: 1.2em;
+}
+
+tbody > tr > td {
+    text-decoration: none;
+}
+
+.footer-color {
+    background-image: linear-gradient(#797055, #645c44);
+}
+
+.btn-primary {
+    background-image: linear-gradient(#797055, #645c44);
+    border: none;
+}
+
+.btn-primary:hover {
+    background-image: linear-gradient(#797055, #645c44);
+}
+
+.span-color {
+    background-image: linear-gradient(#797055, #645c44);
+}
+
+.margin-table {
+    margin-bottom: 100px;
+}
+
+.telefones {
+    text-decoration: none;
+    color: #000000;
+}
+
+.telefones:hover {
+    text-decoration: underline;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}

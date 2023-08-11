@@ -1,0 +1,29 @@
+{
+    "usuarios": [
+        {
+            "setor": "Informática",
+            "nome": "João Rocha",
+            "telefone": "Unknow"
+        },
+        {
+            "setor": "Diger",
+            "nome": "Igor Aguiar",
+            "telefone": "Unknow"
+        },
+        {
+            "setor": "CCTL",
+            "nome": "Idelmar de Oliveira",
+            "telefone": "Unknow"
+        },
+        {
+            "setor": "ASTEC",
+            "nome": "Pablo Henrique",
+            "telefone": "Unknow"
+        },
+        {
+            "setor": "DOEE",
+            "nome": "Lucas Lion",
+            "telefone": "Unknow"
+        }
+    ]
+}

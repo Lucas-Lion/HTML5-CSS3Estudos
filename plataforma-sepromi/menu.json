@@ -1,0 +1,28 @@
+{
+    "menus": [
+        {
+            "nome_opition":"Governo do Estado",
+            "link_menu":"https://www.bahia.ba.gov.br"
+        },
+        {
+            "nome_opition":"Receita Federal",
+            "link_menu":"https://www.gov.br/receitafederal/pt-br"
+        },
+        {
+            "nome_opition":"Telefones Úteis",
+            "link_menu":"ramais/ramais-prefeitura/ramais-prefeitura.html"
+        },
+        {
+            "nome_opition":"Prodeb",
+            "link_menu":"https://portaldefacilidades.ba.gov.br/#/"
+        },
+        {
+            "nome_opition":"ComprasNet",
+            "link_menu":"https://www.comprasnet.ba.gov.br"
+        },
+        {
+            "nome_opition":"Intranet TI",
+            "link_menu":"#"
+        }
+    ]
+}

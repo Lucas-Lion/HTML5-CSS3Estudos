@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+body {
+    background-color: #F0F6F6;
+}
+
+.borda {
+    border-right: 1px solid rgba(255, 255, 255, 0.445);
+}
+
+.nav-link {
+    margin-right: 15px;
+}
+
+.card-hover {
+    text-decoration: none;
+}
+
+.card-hover:hover {
+    transition: transform 0.5s;
+    transform: translate(-4px, -4px);
+}
+
+.nav-color {
+    background-image: linear-gradient(#797055, #645c44);
+}
+
+.nav-link {
+    color: #F8F9FA;
+}
+
+.nav-link:hover {
+    color: #c6c7c9;
+}
+
+.categoria {
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h5 {
+    font-size: 1.4em;
+}
+
+.card-color {
+    background-image: linear-gradient(#797055, #645c44);
+}
+
+.btn-danger, .btn-dark {
+    background-color: #C3C3C3;
+    color: black;
+    font-weight: 500;
+    border: none;
+    width: 50%;
+    font-size: 1.2em;
+}
+
+.btn-danger:hover {
+    background-color: #5a533e;
+}
+
+.footer-color {
+    background-image: linear-gradient(#797055, #645c44);
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+@media screen and (min-width: 100px) and (max-width:1000px) {
+    .nav-item {
+        display: flex;
+        justify-content: center;
+        border: none;
+    }
+
+    .caixas {
+        display: flex;
+        justify-content: center;
+    }
+
+    .nome {
+        display: none;
+    }
+
+    li:hover {
+        background-color: #797055;
+    }
+}

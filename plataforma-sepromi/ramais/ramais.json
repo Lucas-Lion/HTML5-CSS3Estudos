@@ -1,0 +1,381 @@
+{
+    "ramais": [
+        {
+            "setor":"Gabinete - Secretária",
+            "nome":"Ângela Guimarães",
+            "ramal":"1401",
+            "Telefone":"3103-1401"
+        },
+
+        {
+            "setor":"Gabinete - Sec. Secretária",
+            "nome":"Ana Verena",
+            "ramal":"1402",
+            "Telefone":"3103-1402"
+        },
+
+        {
+            "setor":"Gabinete - Chefe do gabinete",
+            "nome":"Alex",
+            "ramal":"1406 | 1417",
+            "Telefone":"3103-1406 | 3103-1417"
+        },
+
+        {
+            "setor":"Gabinete - Secretária do gabinete",
+            "nome":"Vânia",
+            "ramal":"1408 | 1404",
+            "Telefone":"3103-1408 | 3103-1404"
+        },
+
+        {
+            "setor":"Gabinete - Assessor",
+            "nome":"Funcionários",
+            "ramal":"1419 | 1467",
+            "Telefone":"3103-1419 | 3103-1467"
+        },
+
+        {
+            "setor":"ASCOM - Assessoria de comunicação",
+            "nome":"Leonardo Araújo",
+            "ramal":"1413",
+            "Telefone":"3103-1413"
+        },
+
+        {
+            "setor":"ASCOM - Assessoria de comunicação",
+            "nome":"Tadeu",
+            "ramal":"1410",
+            "Telefone":"3103-1410"
+        },
+
+        {
+            "setor":"ASCOM - Assessoria de comunicação",
+            "nome":"Estagiário",
+            "ramal":"1412",
+            "Telefone":"3103-1412"
+        },
+
+        {
+            "setor":"APG - Assesor de Planejamento e Gestão",
+            "nome":"Everaldo Augusto",
+            "ramal":"1424",
+            "Telefone":"3103-1424"
+        },
+
+        {
+            "setor":"APG - Assessoria de Planejamento e Gestão",
+            "nome":"Verena Eloy",
+            "ramal":"1418",
+            "Telefone":"3103-1418"
+        },
+
+        {
+            "setor":"APG - CPO",
+            "nome":"Funcionários",
+            "ramal":"1453",
+            "Telefone":"3103-1453"
+        },
+
+        {
+            "setor":"Diretoria Geral - Diretor",
+            "nome":"Danilo Xavier",
+            "ramal":"1420",
+            "Telefone":"3103-1420"
+        },
+
+        {
+            "setor":"Diretoria Geral - Secretária",
+            "nome":"Secretária",
+            "ramal":"1421",
+            "Telefone":"3103-1421"
+        },
+
+        {
+            "setor":"CFIN - Coordenação Financeira",
+            "nome":"Ana Carla",
+            "ramal":"1422",
+            "Telefone":"3103-1422"
+        },
+
+        {
+            "setor":"CFIN - Coordenação Financeira",
+            "nome":"Isadora Santiago",
+            "ramal":"1431",
+            "Telefone":"3103-1431"
+        },
+
+        {
+            "setor":"CFIN - Coordenação Financeira",
+            "nome":"Funcionários",
+            "ramal":"1432",
+            "Telefone":"3103-1432"
+        },
+
+        {
+            "setor":"CAD - Coordenação Administrativa",
+            "nome":"Jaqueline Alves",
+            "ramal":"1425",
+            "Telefone":"3103-1425"
+        },
+
+        {
+            "setor":"CAD - Coordenação Administrativa",
+            "nome":"Alfim Lacerda",
+            "ramal":"1433",
+            "Telefone":"3103-1433"
+        },
+
+        {
+            "setor":"CCTL - Coordenação de Contratos e Convênios",
+            "nome":"Monica Monteiro",
+            "ramal":"1428",
+            "Telefone":"3103-1428"
+        },
+
+        {
+            "setor":"CCTL - Coordenação de Contratos e Convênios",
+            "nome":"Funcionários",
+            "ramal":"1436",
+            "Telefone":"3103-1436"
+        },
+
+        {
+            "setor":"Coordenação de licitações",
+            "nome":"Roberta Bahia",
+            "ramal":"1429",
+            "Telefone":"3103-1429"
+        },
+
+        {
+            "setor":"Transporte",
+            "nome":"Geomario Santos",
+            "ramal":"1426",
+            "Telefone":"3103-1426"
+        },
+
+        {
+            "setor":"Transporte",
+            "nome":"Funcionários",
+            "ramal":"1448",
+            "Telefone":"3103-1448"
+        },
+
+        {
+            "setor":"Transporte",
+            "nome":"Funcionários",
+            "ramal":"1491",
+            "Telefone":"3103-1491"
+        },
+
+        {
+            "setor":"Transporte - Copa",
+            "nome":"Funcionários",
+            "ramal":"1450",
+            "Telefone":"3103-1450"
+        },
+
+        {
+            "setor":"CRH",
+            "nome":"Funcionários",
+            "ramal":"1423 | 1445",
+            "Telefone":"3103-1423 | 3103-1445"
+        },
+
+        {
+            "setor":"PROTOCOLO",
+            "nome":"Cassio Costa",
+            "ramal":"1461",
+            "Telefone":"3103-1461"
+        },
+
+        {
+            "setor":"Informática",
+            "nome":"Funcionários",
+            "ramal":"1471",
+            "Telefone":"3103-1471"
+        },
+
+        {
+            "setor":"Sup. Políticas Promoção Igualdade Racial",
+            "nome":"Daniele Costa",
+            "ramal":"1440",
+            "Telefone":"3103-1440"
+        },
+
+        {
+            "setor":"Sup. Políticas Promoção Igualdade Racial",
+            "nome":"Tamires Santos",
+            "ramal":"1451",
+            "Telefone":"3103-1451"
+        },
+
+        {
+            "setor":"Sup. Políticas Promoção Igualdade Racial",
+            "nome":"Ícaro Bonfim",
+            "ramal":"1455",
+            "Telefone":"3103-1455"
+        },
+
+        {
+            "setor":"Sup. Políticas Promoção Igualdade Racial",
+            "nome":"Georgia Luzia",
+            "ramal":"1441",
+            "Telefone":"3103-1441"
+        },
+
+        {
+            "setor":"Sup. Políticas Promoção Igualdade Racial",
+            "nome":"Francisca Bonfim",
+            "ramal":"1438",
+            "Telefone":"3103-1438"
+        },
+
+        {
+            "setor":"Sup. Políticas Promoção Igualdade Racial",
+            "nome":"Funcionários",
+            "ramal":"1444",
+            "Telefone":"3103-1444"
+        },
+
+        {
+            "setor":"Sup. Políticas Promoção Igualdade Racial",
+            "nome":"Funcionários",
+            "ramal":"1443",
+            "Telefone":"3103-1443"
+        },
+
+        {
+            "setor":"Sup. Políticas Promoção Igualdade Racial",
+            "nome":"Funcionários",
+            "ramal":"1442",
+            "Telefone":"3103-1442"
+        },
+
+        {
+            "setor":"CRNM - Centro de Referência Nelson Mandela",
+            "nome":"Lita",
+            "ramal":"1411",
+            "Telefone":"3103-1411"
+        },
+
+        {
+            "setor":"CRNM - Centro de Referência Nelson Mandela",
+            "nome":"Carolina",
+            "ramal":"1430",
+            "Telefone":"3103-1430"
+        },
+
+        {
+            "setor":"CRNM - Centro de Referência Nelson Mandela",
+            "nome":"Vanda",
+            "ramal":"1439",
+            "Telefone":"3103-1439"
+        },
+
+        {
+            "setor":"CRNM - Centro de Referência Nelson Mandela",
+            "nome":"Juciana | Gilson",
+            "ramal":"1403",
+            "Telefone":"3103-1403"
+        },
+
+        {
+            "setor":"CRNM - Atendimento",
+            "nome":"Funcionários",
+            "ramal":"Sem Ramal",
+            "Telefone":"3117-7448"
+        },
+
+        {
+            "setor":"Sup. Políticas para Povos e Comunidades Tradicionais",
+            "nome":"Livia Borges",
+            "ramal":"1480",
+            "Telefone":"3103-1480"
+        },
+
+        {
+            "setor":"Sup. Políticas para Povos e Comunidades Tradicionais",
+            "nome":"Tiago Henrique",
+            "ramal":"1490",
+            "Telefone":"3103-1490"
+        },
+
+        {
+            "setor":"Sup. Políticas para Povos e Comunidades Tradicionais",
+            "nome":"Funcionários",
+            "ramal":"1434",
+            "Telefone":"3103-1434"
+        },
+
+        {
+            "setor":"Sup. Políticas para Povos e Comunidades Tradicionais",
+            "nome":"Funcionários",
+            "ramal":"1487",
+            "Telefone":"3103-1487"
+        },
+
+        {
+            "setor":"Sup. Políticas para Povos e Comunidades Tradicionais",
+            "nome":"Veronia Bispo",
+            "ramal":"1481",
+            "Telefone":"3103-1481"
+        },
+
+        {
+            "setor":"Sup. Políticas para Povos e Comunidades Tradicionais",
+            "nome":"Funcionários",
+            "ramal":"1486",
+            "Telefone":"3103-1486"
+        },
+
+        {
+            "setor":"Sup. Políticas para Povos e Comunidades Tradicionais",
+            "nome":"Funcionários",
+            "ramal":"1485",
+            "Telefone":"3103-1485"
+        },
+
+        {
+            "setor":"Sup. Políticas para Povos e Comunidades Tradicionais",
+            "nome":"Funcionários",
+            "ramal":"1482",
+            "Telefone":"3103-1482"
+        },
+
+        {
+            "setor":"Sup. de Políticas para os povos Indigenas",
+            "nome":"Funcionários",
+            "ramal":"Sem Ramal",
+            "Telefone":"Sem telefone"
+        },
+
+        {
+            "setor":"CDCN",
+            "nome":"Funcionários",
+            "ramal":"Sem Ramal",
+            "Telefone":"3117-1553"
+        },
+
+        {
+            "setor":"COPA - 2° andar",
+            "nome":"Funcionários",
+            "ramal":"1416",
+            "Telefone":"3117-1416"
+        },
+
+        {
+            "setor":"COPA - 3° andar",
+            "nome":"Funcionários",
+            "ramal":"1475",
+            "Telefone":"3117-1475"
+        },
+
+        {
+            "setor":"Recepção",
+            "nome":"Funcionários",
+            "ramal":"1415",
+            "Telefone":"3117-1415"
+        }
+    ]
+}
