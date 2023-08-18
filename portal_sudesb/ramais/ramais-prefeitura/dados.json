@@ -1,0 +1,34 @@
+{
+    "usuarios": [
+        {
+            "setor": "Informática",
+            "nome": "Lucas Lion",
+            "telefone": "3128-0550"
+        },
+        {
+            "setor": "DOE",
+            "nome": "Luiz Brantes",
+            "telefone": "3128-0554"
+        },
+        {
+            "setor": "CFIN",
+            "nome": "Alberto",
+            "telefone": "3128-0565"
+        },
+        {
+            "setor": "CRH",
+            "nome": "Alexandro",
+            "telefone": "3128-0521"
+        },
+        {
+            "setor": "COPEL",
+            "nome": "João Ricardo",
+            "telefone": "3128-0526"
+        },
+        {
+            "setor": "DIGER",
+            "nome": "Vicente Neto",
+            "telefone": "3128-0505"
+        }
+    ]
+}
