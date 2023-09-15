@@ -4,6 +4,19 @@ body {
     background-color: #F0F6F6;
 }
 
+button {
+    background-color: #082C4D;
+}
+
+.ul-nav {
+    margin-top: 1em;
+    list-style: none;
+}
+
+.navbar-toggler-icon {
+    color: #F0F6F6;
+}
+
 .nav-link {
     margin-right: 15px;
 }
@@ -18,7 +31,7 @@ body {
 }
 
 .nav-color {
-    background-color: #082C4D
+    background-color: #082C4D;
 }
 
 .nav-link {

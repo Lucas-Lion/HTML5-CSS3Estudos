@@ -17,9 +17,26 @@
 </head>
 
 <body>
+    <div class="pos-f-t mb-5">
+        <nav class="navbar navbar-dark nav-color">
+            <a class="navbar-brand" href="#"><img class="ms-3" src="img/SUDESB-BRANCO.png" width="140"
+                    alt="SUDESB LOGO"></a>
+            <div class="collapse" id="navbarToggleExternalContent">
+                <ul class="d-flex align-items-sm-center justify-content-center gap-4 ul-nav" id="menu_">
+
+                </ul>
+            </div>
+            <button class="me-3 width-button-nav border-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-light"></span>
+            </button>
+        </nav>
+
+    </div>
 
     <!-- CABEÇALHO -->
-    <nav class="navbar navbar-expand-lg nav-color mb-4">
+    <!-- <nav class="navbar navbar-expand-lg nav-color mb-4">
         <a class="navbar-brand" href="#"><img class="ms-5" src="img/SUDESB-BRANCO.png" width="140"
                 alt="SUDESB LOGO"></a>
 
@@ -33,7 +50,7 @@
             
             </ul>
         </div>
-    </nav>
+    </nav> -->
 
     <!-- CORPO -->
     <main class="mb-5">
