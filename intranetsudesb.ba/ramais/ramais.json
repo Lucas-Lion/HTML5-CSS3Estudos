@@ -1,0 +1,325 @@
+{
+    "ramais": [
+        {
+            "setor":"Recepção",
+            "nome":"Marlene | Gladys",
+            "ramal":"0500",
+            "Telefone":"3198-0500"
+        },
+
+        {
+            "setor":"Protocolo",
+            "nome":"Mari | Geovana",
+            "ramal":"0547",
+            "Telefone":"3198-0547"
+        },
+
+        {
+            "setor":"DIGER - Secretária",
+            "nome":"Rose",
+            "ramal":"0503",
+            "Telefone":"3198-0503"
+        },
+
+        {
+            "setor":"DIGER - Secretária",
+            "nome":"Patrícia",
+            "ramal":"0558",
+            "Telefone":"3198-0558"
+        },
+
+        {
+            "setor":"DIGER - Secretária",
+            "nome":"Clécia",
+            "ramal":"0505",
+            "Telefone":"3198-0505"
+        },
+
+        {
+            "setor":"DIGER - Expediente I",
+            "nome":"Bernadete | Magali",
+            "ramal":"0545",
+            "Telefone":"3198-0545"
+        },
+
+        {
+            "setor":"DIGER - Expediente II",
+            "nome":"Gabriela | Verônica",
+            "ramal":"0546",
+            "Telefone":"3198-0546"
+        },
+
+        {
+            "setor":"ASCOM",
+            "nome":"Hilda | Jéssica | Marcos | Bruno | Neuza",
+            "ramal":"0539 | 0559",
+            "Telefone":"3198-0539"
+        },
+
+        {
+            "setor":"ASTEC I",
+            "nome":"Susi | Najla | Yara",
+            "ramal":"0548",
+            "Telefone":"3198-0548"
+        },
+
+        {
+            "setor":"ASTEC II",
+            "nome":"Selma | Sueli | Milena | Diogo",
+            "ramal":"0549",
+            "Telefone":"3198-0549"
+        },
+
+        {
+            "setor":"ASTEC III",
+            "nome":"Mariza | Cicília | Aline | Samira",
+            "ramal":"0551",
+            "Telefone":"3198-0551"
+        },
+
+        {
+            "setor":"ASTEC IV",
+            "nome":"Ana | Amelia | Iago | Ney | Sidnei | Marcela",
+            "ramal":"0557",
+            "Telefone":"3198-0557"
+        },
+
+        {
+            "setor":"DAF - Diretoria",
+            "nome":"Edvaldo Carvalho",
+            "ramal":"0502",
+            "Telefone":"3198-0502"
+        },
+
+        {
+            "setor":"DAF",
+            "nome":"Káthia",
+            "ramal":"0501",
+            "Telefone":"3198-0501"
+        },
+
+        {
+            "setor":"Almoxarifado",
+            "nome":"Jorge | Gileno | Rhuan",
+            "ramal":"0523",
+            "Telefone":"3198-0523"
+        },
+
+        {
+            "setor":"CAD",
+            "nome":"Patrícia | Edneide",
+            "ramal":"0524",
+            "Telefone":"3198-0524"
+        },
+
+        {
+            "setor":"CCTL",
+            "nome":"Ivanildes | Marília | Larissa | Rosa | Adalgisa | Ilma | Rita",
+            "ramal":"0526",
+            "Telefone":"3198-0526"
+        },
+
+        {
+            "setor":"CFIN",
+            "nome":"Alberto",
+            "ramal":"0525",
+            "Telefone":"3198-0525"
+        },
+
+        {
+            "setor":"CFIN - Funcionários",
+            "nome":"Marcia | Nice | Jorge | Mercês | Carlos | Milena | Beatriz",
+            "ramal":"0555",
+            "Telefone":"3198-0555"
+        },
+
+        {
+            "setor":"COMAP",
+            "nome":"Morgana | Claudia | Bianca | Cláudia | Alessandro | Antônio",
+            "ramal":"0522",
+            "Telefone":"3198-0522"
+        },
+
+        {
+            "setor":"Copa cantina 07",
+            "nome":"Valdiva",
+            "ramal":"0528",
+            "Telefone":"3198-0528"
+        },
+
+        {
+            "setor":"Copa Tribuna",
+            "nome":"Domingas | Heloísa",
+            "ramal":"0540",
+            "Telefone":"3198-0540"
+        },
+
+        {
+            "setor":"COPEL",
+            "nome":"Osvan | Sueli | Marleide | João",
+            "ramal":"0529",
+            "Telefone":"3198-0529"
+        },
+
+        {
+            "setor":"CRH",
+            "nome":"Alexandro | Norma | Genice",
+            "ramal":"0527",
+            "Telefone":"3198-0527"
+        },
+
+        {
+            "setor":"COSEG - Coordenação",
+            "nome":"Liz",
+            "ramal":"0520",
+            "Telefone":"3198-0520"
+        },
+
+        {
+            "setor":"COSEG - Funcionários",
+            "nome":"Paulo | Grisi | Adriano | Giovane | Lucas | Messias",
+            "ramal":"0521",
+            "Telefone":"3198-0521"
+        },
+
+        {
+            "setor":"Informática",
+            "nome":"Bruno Guimarães | Igor | Idelmar | Lucas | Pablo",
+            "ramal":"0550 | 0562",
+            "Telefone":"3198-0550 | 3198-0562"
+        },
+
+        {
+            "setor":"Limpeza",
+            "nome":"Milena | Funcionários",
+            "ramal":"0536",
+            "Telefone":"3198-0536"
+        },
+
+        {
+            "setor":"Transporte",
+            "nome":"Silvio | Paulo | Motoristas",
+            "ramal":"0533",
+            "Telefone":"3198-0533"
+        },
+
+        {
+            "setor":"DFE - Diretoria",
+            "nome":"Wilton Brandão | Mariane Secretaria",
+            "ramal":"0535",
+            "Telefone":"3198-0535"
+        },
+
+        {
+            "setor":"DFE",
+            "nome":"Angela | Lurdes | Viriginia | Ana Cristina | Rogerio Lobão",
+            "ramal":"0534",
+            "Telefone":"3198-0534"
+        },
+
+        {
+            "setor":"CAPE",
+            "nome":"Aldir | Andreia | Janine | Maria da Graças | Marcos Etiopia",
+            "ramal":"0531",
+            "Telefone":"3198-0531"
+        },
+
+        {
+            "setor":"CEDE - Professores",
+            "nome":"Alex | Marta | Taína",
+            "ramal":"0532",
+            "Telefone":"3198-0532"
+        },
+
+        {
+            "setor":"CEREL",
+            "nome":"Giselle | Rosana | Rodrigo | Ricardo | Ticão",
+            "ramal":"0566",
+            "Telefone":"3198-0566"
+        },
+
+        {
+            "setor":"DOEE - Diretoria",
+            "nome":"Danilo Xavier",
+            "ramal":"0507",
+            "Telefone":"3198-0507"
+        },
+
+        {
+            "setor":"DOEE - Assessoria",
+            "nome":"Renata | Fátima | Joyce | Rosa | Robson",
+            "ramal":"0542",
+            "Telefone":"3198-0542"
+        },
+
+        {
+            "setor":"DOEE - Contratos",
+            "nome":"Débora",
+            "ramal":"0564",
+            "Telefone":"3198-0564"
+        },
+
+        {
+            "setor":"DOEE - Recepção",
+            "nome":"Rose",
+            "ramal":"0552",
+            "Telefone":"3198-0552"
+        },
+
+        {
+            "setor":"COB - Secretária",
+            "nome":"Sivalda | Luiz Brantes",
+            "ramal":"0561",
+            "Telefone":"3198-0561"
+        },
+
+        {
+            "setor":"COB - Técnicos",
+            "nome":"Afrânio",
+            "ramal":"0543",
+            "Telefone":"3198-0543"
+        },
+
+        {
+            "setor":"COB - Técnicos",
+            "nome":"Cláudio | Manuel | Carlos | Nelson | Otthon",
+            "ramal":"0541",
+            "Telefone":"3198-0541"
+        },
+
+        {
+            "setor":"COB - Enge Arquitetura",
+            "nome":"Christopher | Mariluce | Taruza | Mariana | Thalyta | Vinicius | Aianna | Edipo | Patricia",
+            "ramal":"0565",
+            "Telefone":"3198-0565"
+        },
+
+        {
+            "setor":"DOEE | CEE-I - Coordenação ",
+            "nome":"Hélio | Júnior",
+            "ramal":"0537",
+            "Telefone":"3198-0537"
+        },
+
+        {
+            "setor":"DOEE | CEE-I - Operações",
+            "nome":"Reneval | Jorge | Fernando",
+            "ramal":"0538",
+            "Telefone":"3198-0538"
+        },
+
+        {
+            "setor":"Excelência - Diretoria",
+            "nome":"Sinval Vieira",
+            "ramal":"0554",
+            "Telefone":"3198-0554"
+        },
+
+        {
+            "setor":"Excelência",
+            "nome":"Antonia | Thaís | Fernando | Conceição | Gerson",
+            "ramal":"0553",
+            "Telefone":"3198-0553"
+        }
+    ]
+}
