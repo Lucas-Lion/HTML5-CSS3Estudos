@@ -6,7 +6,7 @@
 
 <a href="https://lucas-lion.github.io/HTML5-CSS3Estudos/01-Apresentação" target="blank">01-Apresentação</a> <br>
 <a href="https://lucas-lion.github.io/HTML5-CSS3Estudos/02-Músicas" target="blank">02-Músicas</a> <br>
-<a href="https://lucas-lion.github.io/HTML5-CSS3Estudos/03-Café" target="blank">03-Café</a> <br>
+<a href="https://lucas-lion.github.io/HTML5-CSS3Estudos/03-Café/cores.html" target="blank">03-Café</a> <br>
 <a href="https://lucas-lion.github.io/HTML5-CSS3Estudos/04-Caixas" target="blank">04-Caixas</a> <br>
 <a href="https://lucas-lion.github.io/HTML5-CSS3Estudos/05-Menu" target="blank">05-Menu</a> <br>
 <a href="https://lucas-lion.github.io/HTML5-CSS3Estudos/06-Veritas" target="blank">06-Veritas</a> <br>
@@ -19,12 +19,12 @@
 <a href="https://lucas-lion.github.io/HTML5-CSS3Estudos/13-Iframes" target="blank">13-Iframes</a> <br>
 <a href="https://lucas-lion.github.io/HTML5-CSS3Estudos/14-Redes_sociais" target="blank">14-Redes_sociais</a> <br>
 <a href="https://lucas-lion.github.io/HTML5-CSS3Estudos/15-Formulários" target="blank">15-Formulários</a> <br>
-<a href="https://lucas-lion.github.io/HTML5-CSS3Estudos/16-Media_queries" target="blank">16-Media_queries</a> <br>
+<a href="https://lucas-lion.github.io/HTML5-CSS3Estudos/16-Media_queries/mq005" target="blank">16-Media_queries</a> <br>
 <a href="https://lucas-lion.github.io/HTML5-CSS3Estudos/17-Projeto-tela-de-login" target="blank">17-Projeto-tela-de-login</a> <br>
-<a href="https://lucas-lion.github.io/HTML5-CSS3Estudos/18-Flexbox" target="blank">18-Flexbox</a> <br>
+<a href="https://lucas-lion.github.io/HTML5-CSS3Estudos/18-Flexbox/nav 2" target="blank">18-Flexbox</a> <br>
 <a href="https://lucas-lion.github.io/HTML5-CSS3Estudos/19-Aniversariantes" target="blank">19-Aniversariantes</a> <br>
 <a href="https://lucas-lion.github.io/HTML5-CSS3Estudos/20-Projeto_emails" target="blank">20-Projeto_emails</a> <br>
-<a href="https://lucas-lion.github.io/HTML5-CSS3Estudos/21-Projeto_intranet_sudesb" target="blank">21-Projeto_intranet_sudesb</a> <br>
+<a href="https://lucas-lion.github.io/HTML5-CSS3Estudos/21-Projeto_intranet_sudesb" target="blank">21-Projeto_intranet_sudesb</a> <br> [--PHP--]
 <a href="https://lucas-lion.github.io/HTML5-CSS3Estudos/22-Projeto_nana" target="blank">22-Projeto_nana</a> <br>
 <a href="https://lucas-lion.github.io/HTML5-CSS3Estudos/23-Projeto_plataforma-sepromi" target="blank">23-Projeto_plataforma-sepromi</a> <br>
 <a href="https://lucas-lion.github.io/HTML5-CSS3Estudos/24-ramais" target="blank">24-ramais</a> <br>
